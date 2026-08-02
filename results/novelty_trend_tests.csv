@@ -1,0 +1,12 @@
+endpoint,tool,metric,spearman_rho,p_value
+Solubility (logS0),SwissADME,|error| vs Tc,0.085,0.3297
+Solubility (logS0),pkCSM,|error| vs Tc,-0.081,0.3574
+Solubility (logS0),ADMETlab3.0,|error| vs Tc,-0.068,0.4386
+Solubility (logS0),ADMET-AI,|error| vs Tc,-0.052,0.553
+hERG (blocker@10uM),ADMETlab3.0,correct vs Tc,-0.08,0.4682
+hERG (blocker@10uM),ADMET-AI,correct vs Tc,-0.074,0.506
+BBB (logBB>-1),ADMETlab3.0,correct vs Tc,0.048,0.5149
+BBB (logBB>-1),ADMET-AI,correct vs Tc,-0.047,0.5229
+BBB (logBB>-1),pkCSM,correct vs Tc,0.02,0.7892
+DILI,ADMETlab3.0,correct vs Tc,0.107,0.1324
+DILI,ADMET-AI,correct vs Tc,0.074,0.3021

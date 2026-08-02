@@ -1,0 +1,4 @@
+endpoint,n,ADMETlab_AUROC,ADMET-AI_AUROC,z,p_value,significant_0.05
+hERG,84,0.84,0.748,1.73,0.084,False
+BBB,184,0.677,0.804,-3.7,0.0,True
+DILI,198,0.655,0.611,1.51,0.131,False

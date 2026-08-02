@@ -1,0 +1,599 @@
+compound_id,endpoint,source_dataset,SMILES,InChIKey,ground_truth,novelty_bin,nn_tanimoto,SwissADME,pkCSM,ADMETlab3.0,ADMET-AI
+SC2-070,Solubility (logS0),SC-2 (tight),O=C1Nc2ccc(Cl)cc2C(c2ccccc2)=NC1O,ADIMAYPTOBDMTL-UHFFFAOYSA-N,-3.76,Intermediate,0.592,-3.41,-3.998,-3.989,-3.403
+SC2-068,Solubility (logS0),SC-2 (tight),COc1ccc2c(c1OC)C(=O)O[C@@H]2[C@H]1c2c(cc3c(c2OC)OCO3)CCN1C,AKNNEGZIBPJZJG-MSOLQXFVSA-N,-3.89,Novel,0.325,-4.14,-2.932,-3.538,-3.271
+SC2-059,Solubility (logS0),SC-2 (tight),Cc1ccccc1N1C(=O)c2cc(S(N)(=O)=O)c(Cl)cc2NC1C,AQCHWTWZEMGIFD-UHFFFAOYSA-N,-4.52,Near,1.0,-4.1,-3.875,-3.649,-3.705
+SC2-023,Solubility (logS0),SC-2 (tight),CN=C(NC#N)NCCSCc1nc[nH]c1C,AQIXAKUUQRKLND-UHFFFAOYSA-N,-1.27,Near,0.72,-1.11,-1.601,-1.642,-1.502
+SC2-003,Solubility (logS0),SC-2 (tight),C=CCOc1ccc(CC(=O)O)cc1Cl,ARHWPKZXBHOEEE-UHFFFAOYSA-N,-2.7,Novel,0.296,-2.77,-3.203,-2.642,-2.817
+SC2-126,Solubility (logS0),SC-2 (loose),COC1C=COC2(C)Oc3c(C)c(O)c4c(c3C2=O)C2=NC3(CCN(CC(C)C)CC3)NC2=C(NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C)C4=O,ATEBXHFBFRCZMA-UHFFFAOYSA-N,-5.63,Near,0.848,-8.48,-3.244,-3.319,-7.096
+SC2-060,Solubility (logS0),SC-2 (tight),COc1ccc2cc(CCC(C)=O)ccc2c1,BLXXJMDCKKHMKV-UHFFFAOYSA-N,-3.42,Near,1.0,-3.37,-4.095,-3.48,-4.167
+SC2-034,Solubility (logS0),SC-2 (tight),CC(=O)OCC(=O)[C@@]1(OC(C)=O)[C@@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C,BOBLHFUVNSFZPJ-JOYXJVLSSA-N,-4.47,Near,0.708,-4.05,-4.638,-3.773,-4.747
+SC2-002,Solubility (logS0),SC-2 (tight),CC(=O)Oc1ccccc1C(=O)O,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,-1.98,Near,1.0,-1.85,-1.868,-1.554,-1.419
+SC2-111,Solubility (logS0),SC-2 (loose),O=c1[nH]cnc2c1ncn2[C@H]1CC[C@@H](CO)O1,BXZVVICBKDXVGW-NKWVEPMBSA-N,-0.66,Near,0.612,-1.68,-2.218,-1.587,-1.551
+SC2-119,Solubility (logS0),SC-2 (loose),Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1,BYBLEWFAAKGYCD-UHFFFAOYSA-N,-7.31,Near,1.0,-6.26,-3.548,-4.643,-5.6
+SC2-001,Solubility (logS0),SC-2 (tight),CC(=O)Nc1nnc(S(N)(=O)=O)s1,BZKPWHYZMXOIDC-UHFFFAOYSA-N,-0.98,Intermediate,0.474,-1.14,-2.575,-2.519,-1.812
+SC2-054,Solubility (logS0),SC-2 (tight),CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@@H](O)C[C@@H](Cc1ccccc1)C(=O)N[C@H]1c2ccccc2C[C@H]1O,CBVCZFGXHXORBI-PXQQMZJSSA-N,-3.8,Near,0.624,-4.86,-3.594,-3.303,-2.657
+SC2-005,Solubility (logS0),SC-2 (tight),O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1,CEUORZQYGODEFX-UHFFFAOYSA-N,-5.5,Near,0.636,-5.38,-4.944,-4.381,-3.983
+SC2-055,Solubility (logS0),SC-2 (tight),COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,CGIGDMFJXJATDK-UHFFFAOYSA-N,-4.77,Near,1.0,-4.86,-4.779,-5.801,-4.673
+SC2-061,Solubility (logS0),SC-2 (tight),COc1ccc2cc(C(C)C(=O)O)ccc2c1,CMWTZPSULFXXJA-UHFFFAOYSA-N,-3.82,Near,1.0,-3.61,-4.079,-4.004,-3.576
+SC2-074,Solubility (logS0),SC-2 (tight),CCOc1ccc(NC(C)=O)cc1,CPJSUEIXXCENMM-UHFFFAOYSA-N,-2.64,Novel,0.321,-2.02,-2.304,-2.235,-1.873
+SC2-080,Solubility (logS0),SC-2 (tight),CCCN(CCC)S(=O)(=O)c1ccc(C(=O)O)cc1,DBABZHXKTCFAPX-UHFFFAOYSA-N,-3.42,Near,1.0,-3.4,-3.332,-3.459,-2.981
+SC2-033,Solubility (logS0),SC-2 (tight),O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,DCOPUUMXTXDBNB-UHFFFAOYSA-N,-5.29,Near,1.0,-4.65,-3.612,-3.661,-4.365
+SC2-025,Solubility (logS0),SC-2 (tight),COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CCCOc2ccc(F)cc2)CC1OC,DCSUBABJRXZOMT-UHFFFAOYSA-N,-3.71,Near,0.716,-4.49,-4.488,-4.15,-4.096
+SC2-051,Solubility (logS0),SC-2 (tight),COC1=CC(=O)C[C@@H](C)[C@]12Oc1c(Cl)c(OC)cc(OC)c1C2=O,DDUHZTYCFQRHIY-RBHXEPJQSA-N,-4.14,Near,1.0,-3.39,-4.49,-4.805,-4.483
+SC2-101,Solubility (logS0),SC-2 (loose),NC12CC3CC(CC(C3)C1)C2,DKNWSYNQZKUICI-UHFFFAOYSA-N,-2.96,Near,1.0,-2.31,-2.375,-2.345,-1.256
+SC2-037,Solubility (logS0),SC-2 (tight),c1ccc(Nc2ccccc2)cc1,DMBHHRLKUKUOEG-UHFFFAOYSA-N,-3.22,Novel,0.353,-3.65,-3.482,-3.547,-3.598
+SC2-041,Solubility (logS0),SC-2 (tight),C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CCC2=O,DNXHEGUUPJUMQT-CBZIJGRNSA-N,-5.62,Near,1.0,-3.71,-4.652,-4.178,-4.796
+SC2-046,Solubility (logS0),SC-2 (tight),CC1CCc2cc(F)cc3c(=O)c(C(=O)O)cn1c23,DPSPPJIUMHPXMA-UHFFFAOYSA-N,-4.13,Intermediate,0.484,-4.13,-3.356,-3.741,-3.325
+SC2-079,Solubility (logS0),SC-2 (tight),CCC1(c2ccccc2)C(=O)NCNC1=O,DQMZLTXERSFNPB-UHFFFAOYSA-N,-2.61,Intermediate,0.486,-1.91,-2.108,-2.801,-1.922
+SC2-083,Solubility (logS0),SC-2 (tight),CCOc1cc(CC(=O)N[C@@H](CC(C)C)c2ccccc2N2CCCCC2)ccc1C(=O)O,FAEKWTJYAYMJKF-QHCPKHFHSA-N,-5.78,Near,0.712,-5.45,-3.761,-4.347,-4.82
+SC2-013,Solubility (logS0),SC-2 (tight),NC(=O)N1c2ccccc2C=Cc2ccccc21,FFGPTBGBLSHEPO-UHFFFAOYSA-N,-4.56,Intermediate,0.552,-3.28,-3.673,-3.577,-3.547
+SC2-098,Solubility (logS0),SC-2 (tight),Nc1nc(N)c2nc(-c3ccccc3)c(N)nc2n1,FNYLWPVRPXGIIP-UHFFFAOYSA-N,-3.21,Novel,0.304,-2.58,-2.525,-3.113,-3.535
+SC2-039,Solubility (logS0),SC-2 (tight),CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O,GBXSMTUPTTWBMN-XIRDDKMYSA-N,-2.29,Near,1.0,-1.57,-2.647,-2.269,-1.453
+SC2-032,Solubility (logS0),SC-2 (tight),CC1=NS(=O)(=O)c2cc(Cl)ccc2N1,GDLBFKVLRPITMI-UHFFFAOYSA-N,-4.41,Intermediate,0.463,-2.34,-3.05,-2.753,-2.985
+SC2-097,Solubility (logS0),SC-2 (tight),C[C@]12C=CC(=O)C=C1CC[C@H]1[C@@H]3C[C@@H](O)[C@](O)(C(=O)CO)[C@@]3(C)C[C@H](O)[C@@]12F,GFNANZIMVAIWHM-OBYCQNJPSA-N,-2.57,Near,1.0,-2.88,-3.47,-3.388,-3.421
+SC2-012,Solubility (logS0),SC-2 (tight),CCOc1nc2cccc(C(=O)OC(C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1,GHOSNRCGJFBJIB-UHFFFAOYSA-N,-7.24,Near,0.667,-7.62,-2.919,-5.463,-7.049
+SC2-094,Solubility (logS0),SC-2 (tight),CCCCNc1ccc(C(=O)OCCN(C)C)cc1,GKCBAIGFKIBETG-UHFFFAOYSA-N,-3.36,Near,0.667,-3.47,-2.48,-3.159,-2.977
+SC2-069,Solubility (logS0),SC-2 (tight),CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23,GSDSWSVVBLHKDQ-UHFFFAOYSA-N,-3.33,Near,1.0,-2.69,-3.267,-2.053,-2.592
+SC2-131,Solubility (logS0),SC-2 (loose),CC(C)(C)c1ccc(C(O)CCCN2CCC(C(O)(c3ccccc3)c3ccccc3)CC2)cc1,GUGOEEXESWIERI-UHFFFAOYSA-N,-7.2,Near,0.804,-6.69,-3.583,-6.46,-5.408
+SC2-125,Solubility (logS0),SC-2 (loose),O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,GZUITABIAKMVPG-UHFFFAOYSA-N,-6.78,Near,1.0,-6.61,-3.607,-5.57,-4.777
+SC2-030,Solubility (logS0),SC-2 (tight),CNCCCN1c2ccccc2CCc2ccccc21,HCYAFALTSJYZDH-UHFFFAOYSA-N,-3.78,Near,1.0,-4.76,-3.96,-3.916,-3.504
+SC2-071,Solubility (logS0),SC-2 (tight),CCCCC1C(=O)N(c2ccccc2)N(c2ccc(O)cc2)C1=O,HFHZKZSRXITVMK-UHFFFAOYSA-N,-3.7,Near,0.824,-3.6,-4.961,-3.701,-3.987
+SC2-016,Solubility (logS0),SC-2 (tight),CO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CS[C@H]12)c1csc(N)n1,HJJDBAOLQAWBMH-YCRCPZNHSA-N,-0.25,Intermediate,0.591,-2.66,-2.902,-2.482,-2.588
+SC2-036,Solubility (logS0),SC-2 (tight),COc1ccc([C@@H]2Sc3ccccc3N(CCN(C)C)C(=O)[C@@H]2OC(C)=O)cc1,HSUGRBWQSSZJOP-RTWAWAEBSA-N,-4.72,Near,1.0,-3.96,-4.424,-2.922,-3.315
+SC2-112,Solubility (logS0),SC-2 (loose),O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O,HUPFGZXOMWLGNK-UHFFFAOYSA-N,-4.43,Near,1.0,-4.55,-3.492,-4.464,-3.994
+SC2-122,Solubility (logS0),SC-2 (loose),CCc1ccc(CCOc2ccc(CC3SC(=O)NC3=O)cc2)nc1,HYAFETHFCAUJAY-UHFFFAOYSA-N,-4.25,Near,0.736,-4.31,-4.268,-4.468,-4.878
+SC2-064,Solubility (logS0),SC-2 (tight),COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-],HYIMSNHJOBLJNT-UHFFFAOYSA-N,-3.16,Near,1.0,-3.15,-3.964,-4.213,-4.831
+SC2-065,Solubility (logS0),SC-2 (tight),CS(=O)(=O)Nc1ccc([N+](=O)[O-])cc1Oc1ccccc1,HYWYRSMBCFDLJT-UHFFFAOYSA-N,-3.45,Novel,0.3,-3.48,-4.781,-4.444,-4.108
+SC2-114,Solubility (logS0),SC-2 (loose),CC[C@]1(c2ccccc2)OC[C@H]([C@@H]2CCCCN2)O1,INOYCBNLWYEPSB-XHSDSOJGSA-N,-3.3,Novel,0.288,-3.13,-2.363,-2.409,-2.053
+SC2-049,Solubility (logS0),SC-2 (tight),Nc1nc(=O)c2ncn(COC(CO)CO)c2[nH]1,IRSCQMHQWWYFCW-UHFFFAOYSA-N,0.22,Intermediate,0.58,-0.83,-2.547,-1.536,-2.003
+SC2-027,Solubility (logS0),SC-2 (tight),CC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3C(=O)C[C@@]21C,ITRJWOMZKQRYTA-RFZYENFJSA-N,-4.03,Near,1.0,-3.39,-4.104,-3.934,-4.163
+SC2-102,Solubility (logS0),SC-2 (loose),CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1,IYIKLHRQXLHMJQ-UHFFFAOYSA-N,-7.75,Near,1.0,-8.24,-6.899,-6.745,-4.113
+SC2-004,Solubility (logS0),SC-2 (tight),Nc1c(Br)cc(Br)cc1CN[C@H]1CC[C@H](O)CC1,JBDGDEWWOUBZPM-XYPYZODXSA-N,-4.78,Intermediate,0.417,-3.9,-2.575,-3.673,-2.356
+SC2-116,Solubility (logS0),SC-2 (loose),O=C(O)Cc1sc(-c2ccccc2)nc1-c1ccc(Cl)cc1,JIEKMACRVQTPRC-UHFFFAOYSA-N,-5.62,Novel,0.36,-5.46,-4.682,-4.674,-4.25
+SC2-090,Solubility (logS0),SC-2 (tight),Nc1ccc(S(=O)(=O)Nc2nccs2)cc1,JNMRHUJNCSQMMB-UHFFFAOYSA-N,-2.8,Near,1.0,-1.77,-2.779,-2.633,-2.943
+SC2-095,Solubility (logS0),SC-2 (tight),CN(C)[C@@H]1C(=O)/C(=C(\N)O)C(=O)[C@@]2(O)C(=O)C3=C(O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12,JYHCQVWYCGHXGP-BPPSBWQWSA-N,-0.53,Intermediate,0.542,-3.24,-3.195,-2.564,-2.632
+SC2-076,Solubility (logS0),SC-2 (tight),CC(C)NCC(O)COc1cccc2[nH]ccc12,JZQKKSLKJUAGIC-UHFFFAOYSA-N,-2.86,Near,1.0,-2.46,-2.186,-2.265,-2.761
+SC2-008,Solubility (logS0),SC-2 (tight),NCC(CC(=O)O)c1ccc(Cl)cc1,KPYSYYIEGFHWSV-UHFFFAOYSA-N,-3.19,Near,1.0,-0.61,-1.763,-1.096,-1.856
+SC2-006,Solubility (logS0),SC-2 (tight),O=C1C(O)=C(C2CCC(c3ccc(Cl)cc3)CC2)C(=O)c2ccccc21,KUCQYCKVKVOKAY-UHFFFAOYSA-N,-7.0,Near,1.0,-5.9,-4.866,-5.257,-5.84
+SC2-021,Solubility (logS0),SC-2 (tight),C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,KXGVEGMKQFWNSR-LLQZFEROSA-N,-5.49,Near,0.61,-4.21,-4.085,-4.693,-4.934
+SC2-052,Solubility (logS0),SC-2 (tight),O=C(CCCN1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1,LNEPOXFFQSENCJ-UHFFFAOYSA-N,-5.19,Near,1.0,-4.82,-3.865,-4.708,-3.88
+SC2-124,Solubility (logS0),SC-2 (loose),C=C[C@H]1CN2CC[C@@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12,LOUPRKONTZGTKE-FOEVPDMQSA-N,-4.19,Near,1.0,-3.71,-2.78,-3.344,-3.226
+SC2-100,Solubility (logS0),SC-2 (tight),O=c1[nH]c(=O)c2[nH]cnc2[nH]1,LRFVTYWOQMYALW-UHFFFAOYSA-N,-1.19,Novel,0.256,-2.35,-3.433,-3.365,-3.013
+SC2-084,Solubility (logS0),SC-2 (tight),Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,LUKBXSAWLPMMSZ-OWOJBTEDSA-N,-4.76,Novel,0.333,-3.62,-3.192,-3.607,-2.774
+SC2-087,Solubility (logS0),SC-2 (tight),CC(=O)S[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12,LXMSZDCAJNLERA-ZHYRCANASA-N,-5.45,Near,1.0,-4.14,-5.022,-4.515,-4.825
+SC2-123,Solubility (logS0),SC-2 (loose),CCN(CC)CCOC(=O)c1ccc(N)cc1,MFDFERRIHVXMIY-UHFFFAOYSA-N,-1.63,Near,1.0,-2.31,-2.04,-1.888,-2.254
+SC2-093,Solubility (logS0),SC-2 (tight),CC1=C(CC(=O)O)c2cc(F)ccc2/C1=C\c1ccc([S+](C)[O-])cc1,MLKXDPUZXIRXEP-MFOYZWKCSA-N,-5.46,Near,0.679,-4.87,-5.058,-4.752,-4.444
+SC2-007,Solubility (logS0),SC-2 (tight),CCNc1nc(Cl)nc(NC(C)C)n1,MXWJVTOOROXGIU-UHFFFAOYSA-N,-2.76,Novel,0.186,-2.87,-3.117,-4.109,-3.326
+SC2-024,Solubility (logS0),SC-2 (tight),O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O,MYSWGUAQZAJSOK-UHFFFAOYSA-N,-3.5,Near,1.0,-2.41,-2.917,-1.173,-3.646
+SC2-085,Solubility (logS0),SC-2 (tight),CC(C)c1nc(CN(C)C(=O)N[C@H](C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,NCDNCNXCDXHOMX-XGKFQTDJSA-N,-6.37,Intermediate,0.51,-6.99,-4.278,-5.559,-5.503
+SC2-010,Solubility (logS0),SC-2 (tight),NS(=O)(=O)c1cc2c(cc1Cl)NC(CSCc1ccccc1)=NS2(=O)=O,NDTSRXAMMQDVSW-UHFFFAOYSA-N,-4.0,Near,0.627,-3.88,-4.357,-3.773,-3.058
+SC2-092,Solubility (logS0),SC-2 (tight),Cc1noc(NS(=O)(=O)c2ccc(N)cc2)c1C,NHUHCSRWZMLRLA-UHFFFAOYSA-N,-2.83,Near,1.0,-2.39,-2.206,-2.199,-2.66
+SC2-129,Solubility (logS0),SC-2 (loose),CC/C(=C(\c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1,NKANXQFJJICGDU-QPLCGJKRSA-N,-6.23,Near,1.0,-6.59,-4.939,-6.344,-6.912
+SC2-035,Solubility (logS0),SC-2 (tight),CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3-c2ccc(F)cc2)CC1,NOCJXYPHIIZEHN-UHFFFAOYSA-N,-4.08,Near,0.661,-4.04,-3.849,-3.48,-3.611
+SC2-063,Solubility (logS0),SC-2 (tight),Cc1ccnc2c1NC(=O)c1cccnc1N2C1CC1,NQDJXKOVJZTUJA-UHFFFAOYSA-N,-4.38,Intermediate,0.549,-3.9,-4.199,-2.489,-3.496
+SC2-066,Solubility (logS0),SC-2 (tight),CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)cc21,OGJPXUAPXNRGGI-UHFFFAOYSA-N,-2.73,Near,1.0,-2.25,-3.251,-2.315,-2.949
+SC2-117,Solubility (logS0),SC-2 (loose),CCC(Cc1c(I)cc(I)c(N)c1I)C(=O)O,OIRFJRBSRORBCM-UHFFFAOYSA-N,-4.54,Near,1.0,-5.82,-3.398,-4.712,-4.233
+SC2-115,Solubility (logS0),SC-2 (loose),O=C1[C@H](CC[C@H](O)c2ccc(F)cc2)[C@@H](c2ccc(O)cc2)N1c1ccc(F)cc1,OLNTVTPDXPETLC-XPWALMASSA-N,-5.79,Near,1.0,-4.92,-4.799,-4.258,-4.593
+SC2-026,Solubility (logS0),SC-2 (tight),C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)CC[C@@]43C)[C@@H]1CC[C@@H]2C(=O)CO,OMFXVFTZEKFJBZ-HJTSIMOOSA-N,-3.74,Near,0.623,-3.08,-3.617,-2.816,-3.386
+SC2-089,Solubility (logS0),SC-2 (tight),O=C(O)C1=C/C(=N\Nc2ccc(S(=O)(=O)Nc3ccccn3)cc2)C=CC1=O,OQANPHBRHBJGNZ-BKUYFWCQSA-N,-3.25,Intermediate,0.462,-3.65,-3.416,-3.926,-4.121
+SC2-042,Solubility (logS0),SC-2 (tight),CCOc1ccc2nc(S(N)(=O)=O)sc2c1,OUZWUKMCLIBBOG-UHFFFAOYSA-N,-2.48,Novel,0.255,-2.93,-2.775,-3.345,-3.164
+SC2-048,Solubility (logS0),SC-2 (tight),Nc1nc(=O)c2nc(CNc3ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc3)cnc2[nH]1,OVBPIULPVIDEAO-LBPRGKRZSA-N,-1.71,Near,0.712,-2.58,-2.893,-5.384,-3.581
+SC2-103,Solubility (logS0),SC-2 (loose),CCN(CC)Cc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O,OVCDSSHSILBFBN-UHFFFAOYSA-N,-6.51,Near,1.0,-5.39,-4.155,-4.678,-4.522
+SC2-105,Solubility (logS0),SC-2 (loose),CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)[C@@H]3C=C4c5cccc6[nH]c(Br)c(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12,OZVBMTJYIDMWIL-AYFBDAFISA-N,-4.61,Near,0.755,-6.67,-2.92,-4.668,-3.964
+SC2-067,Solubility (logS0),SC-2 (tight),CNCCC=C1c2ccccc2CCc2ccccc21,PHVGLTMQBUFIQQ-UHFFFAOYSA-N,-5.22,Near,1.0,-4.56,-4.426,-4.082,-3.563
+SC2-028,Solubility (logS0),SC-2 (tight),CC=CCC(C)C(O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1C,PMATZTZNYRCHOR-UHFFFAOYSA-N,-4.03,Intermediate,0.57,-8.15,-2.895,-3.05,-5.169
+SC2-110,Solubility (logS0),SC-2 (loose),C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=Cc5oncc5C[C@]4(C)[C@H]3CC[C@@]21C,POZRVZJJTULAOH-LHZXLZLDSA-N,-5.76,Near,1.0,-4.41,-4.788,-5.259,-5.841
+SC2-082,Solubility (logS0),SC-2 (tight),CC(CN1c2ccccc2Sc2ccccc21)N(C)C,PWWVAXIEGOYWEE-UHFFFAOYSA-N,-4.09,Near,1.0,-4.88,-3.986,-4.209,-4.418
+SC2-062,Solubility (logS0),SC-2 (tight),Cc1c(O)cccc1C(=O)N[C@@H](CSc1ccccc1)[C@H](O)CN1C[C@H]2CCCC[C@H]2C[C@H]1C(=O)NC(C)(C)C,QAGYKUNXZHXKMR-HKWSIXNMSA-N,-7.5,Intermediate,0.581,-6.36,-3.552,-5.464,-5.311
+SC2-088,Solubility (logS0),SC-2 (tight),O=C1C[C@@H]2OCC=C3CN4CC[C@]56c7ccccc7N1[C@H]5[C@H]2[C@H]3C[C@H]46,QMGVPVSNSZLJIA-FVWCLLPLSA-N,-4.09,Novel,0.22,-3.31,-2.999,-3.658,-2.732
+SC2-075,Solubility (logS0),SC-2 (tight),Nc1ccc(N=Nc2ccccc2)c(N)n1,QPFYXYFORQJZEC-UHFFFAOYSA-N,-3.3,Intermediate,0.459,-2.8,-2.947,-3.219,-3.991
+SC2-058,Solubility (logS0),SC-2 (tight),CNCCCC12CCC(c3ccccc31)c1ccccc12,QSLMDECMDJKHMQ-UHFFFAOYSA-N,-4.38,Near,1.0,-4.6,-4.726,-4.508,-4.205
+SC2-099,Solubility (logS0),SC-2 (tight),CC(=O)CC(c1ccccc1)c1c(O)oc2ccccc2c1=O,QTXVAVXCBMYBJW-UHFFFAOYSA-N,-4.47,Near,0.705,-3.39,-4.484,-3.453,-4.406
+SC2-127,Solubility (logS0),SC-2 (loose),CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(N)=O)NC(=O)c1ccc2ccccc2n1,QWAXKHKRTORLEM-UGJKXSETSA-N,-5.84,Intermediate,0.586,-5.86,-4.035,-3.915,-4.255
+SC2-019,Solubility (logS0),SC-2 (tight),CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)C3=CCC=CC3)[C@H]2SC1,RDLPVSKMFDYCOR-UEKVPHQBSA-N,-1.0,Near,0.677,-1.96,-2.565,-1.841,-2.123
+SC2-073,Solubility (logS0),SC-2 (tight),OCCN1CCN(CCCN2c3ccccc3Sc3ccc(Cl)cc32)CC1,RGCVKNLCSQQDEP-UHFFFAOYSA-N,-4.16,Near,1.0,-4.92,-3.839,-4.295,-3.56
+SC2-056,Solubility (logS0),SC-2 (tight),CC(C(=O)O)c1ccc(N2Cc3ccccc3C2=O)cc1,RJMIEHBSYVWVIN-UHFFFAOYSA-N,-4.43,Novel,0.388,-3.55,-3.957,-3.478,-3.568
+SC2-020,Solubility (logS0),SC-2 (tight),CCCNC(=O)NS(=O)(=O)c1ccc(Cl)cc1,RKWGIWYCVPQPMF-UHFFFAOYSA-N,-2.27,Intermediate,0.548,-2.85,-2.902,-2.614,-3.026
+SC2-130,Solubility (logS0),SC-2 (loose),CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1,RMMXLENWKUUMAY-UHFFFAOYSA-N,-9.13,Near,1.0,-7.5,-2.892,-4.069,-5.409
+SC2-106,Solubility (logS0),SC-2 (loose),CO[C@]12CC[C@@]3(C[C@@H]1[C@@](C)(O)C(C)(C)C)[C@H]1Cc4ccc(O)c5c4[C@@]3(CCN1CC1CC1)[C@H]2O5,RMRJXGBAOAMLHD-LDFHUFRKSA-N,-5.76,Near,1.0,-5.49,-3.599,-3.59,-5.155
+SC2-022,Solubility (logS0),SC-2 (tight),O=C1CCc2cc(OCCCCc3nnnn3C3CCCCC3)ccc2N1,RRGUKTPIGVIEKM-UHFFFAOYSA-N,-4.31,Near,1.0,-3.92,-3.917,-4.406,-3.227
+SC2-018,Solubility (logS0),SC-2 (tight),Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,RZEKVGVHFLEQIL-UHFFFAOYSA-N,-4.34,Near,1.0,-4.57,-4.441,-4.72,-4.484
+SC2-086,Solubility (logS0),SC-2 (tight),CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1,RZJQGNCSTQAWON-UHFFFAOYSA-N,-3.88,Novel,0.273,-3.42,-4.408,-3.189,-4.429
+SC2-096,Solubility (logS0),SC-2 (tight),CC(=O)Nc1ccc(/C=N/NC(N)=S)cc1,SRVJKTDHMYAMHA-WUXMJOGZSA-N,-2.31,Novel,0.271,-1.91,-2.65,-3.519,-3.126
+SC2-121,Solubility (logS0),SC-2 (loose),COc1ccc2[nH]c([S+]([O-])Cc3ncc(C)c(OC)c3C)nc2c1,SUBDBMMJDZJVOS-UHFFFAOYSA-N,-3.71,Intermediate,0.5,-4.03,-3.046,-2.904,-3.515
+SC2-047,Solubility (logS0),SC-2 (tight),CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1,SYTBZMRGLBWNTM-UHFFFAOYSA-N,-4.04,Near,1.0,-4.27,-4.122,-4.042,-3.84
+SC2-077,Solubility (logS0),SC-2 (tight),CCC(C)C(=O)OC1CC(O)C=C2C=CC(C)C(CCC(O)CC(O)CC(=O)O)C21,TUZYXOIXSAXUGO-UHFFFAOYSA-N,-4.95,Near,1.0,-3.31,-3.015,-3.427,-2.734
+SC2-015,Solubility (logS0),SC-2 (tight),COC(=O)Nc1nc2ccccc2[nH]1,TWFZGCMQGLPBSX-UHFFFAOYSA-N,-4.03,Novel,0.358,-2.04,-3.06,-3.947,-3.315
+SC2-014,Solubility (logS0),SC-2 (tight),c1ccc2c(c1)[nH]c1ccccc12,UJOBWOGCFQCDNV-UHFFFAOYSA-N,-5.03,Novel,0.3,-3.75,-4.229,-4.712,-4.763
+SC2-031,Solubility (logS0),SC-2 (tight),C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO,UREBDLICKHMUKA-CXSFZGCWSA-N,-3.78,Near,1.0,-3.36,-4.096,-3.509,-4.203
+SC2-109,Solubility (logS0),SC-2 (loose),COc1cc(/C=C/C(=O)CC(=O)/C=C/c2ccc(O)c(OC)c2)ccc1O,VFLDPWHFBUODDF-FCXRPNKRSA-N,-4.39,Novel,0.271,-3.94,-4.048,-3.62,-5.086
+SC2-078,Solubility (logS0),SC-2 (tight),CC1CC2C(C(O)CC3(C)C2CCC3(O)C(=O)CO)C2(C)C=CC(=O)C=C12,VHRSUDSXCMQTMA-UHFFFAOYSA-N,-3.38,Near,1.0,-3.26,-3.675,-3.623,-3.385
+SC2-118,Solubility (logS0),SC-2 (loose),CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O,VHVPQPYKVGDNFY-ZPGVKDDISA-N,-6.48,Near,1.0,-8.45,-4.066,-5.419,-6.287
+SC2-104,Solubility (logS0),SC-2 (loose),CC(C)NCC(O)COc1ccc(COCCOC(C)C)cc1,VHYCDWMUTMEGQY-UHFFFAOYSA-N,-2.62,Near,1.0,-2.44,-2.906,-2.116,-0.823
+SC2-043,Solubility (logS0),SC-2 (tight),COc1cc([C@@H]2c3cc4c(cc3[C@@H](O[C@@H]3O[C@@H]5CO[C@@H](C)O[C@H]5[C@H](O)[C@H]3O)C3COC(=O)[C@@H]32)OCO4)cc(OC)c1O,VJJPUSNTGOMMGY-MRAJQDPKSA-N,-3.03,Near,1.0,-3.75,-3.524,-3.458,-4.508
+SC2-120,Solubility (logS0),SC-2 (loose),CC#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CCC4=C3[C@@H](c3ccc(N(C)C)cc3)C[C@@]21C,VKHAHZOOUSRJNA-GCNJZUOMSA-N,-6.6,Near,1.0,-4.89,-5.542,-5.158,-5.645
+SC2-011,Solubility (logS0),SC-2 (tight),O=C1CN=C(c2ccccn2)c2cc(Br)ccc2N1,VMIYHDSEFNYJSL-UHFFFAOYSA-N,-3.81,Intermediate,0.549,-3.49,-3.601,-3.651,-3.175
+SC2-040,Solubility (logS0),SC-2 (tight),C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@H]2O,VOXZDWNPVJITMN-SFFUCWETSA-N,-5.01,Near,1.0,-4.28,-4.465,-4.356,-4.558
+SC2-017,Solubility (logS0),SC-2 (tight),C/C=C/C1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccc(O)cc3)[C@H]2SC1,WDLWHQDACQUCJR-ZAMMOSSLSA-N,-2.18,Near,0.698,-1.13,-2.988,-1.917,-2.275
+SC2-108,Solubility (logS0),SC-2 (loose),CC(C)N=c1cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1,WDQPAMHFFCXSNU-UHFFFAOYSA-N,-8.85,Near,1.0,-8.51,-5.476,-7.639,-6.23
+SC2-044,Solubility (logS0),SC-2 (tight),CC12CCC(CC1)C(C)(C)O2,WEEGYLXZBRQIMU-UHFFFAOYSA-N,-2.36,Novel,0.233,-2.52,-2.63,-1.383,-2.14
+SC2-132,Solubility (logS0),SC-2 (loose),c1ccc2[nH]c(-c3cscn3)nc2c1,WJCNZQLZVWNLKY-UHFFFAOYSA-N,-4.99,Near,1.0,-3.16,-2.566,-3.772,-3.125
+SC2-107,Solubility (logS0),SC-2 (loose),CN(C)CC/C=C1/c2ccccc2Sc2ccc(Cl)cc21,WSPOMRSOLSGNFJ-AUWJEWJLSA-N,-5.42,Near,1.0,-5.29,-5.472,-4.959,-5.773
+SC2-038,Solubility (logS0),SC-2 (tight),N[C@@H](Cc1ccc(O)c(O)c1)C(=O)O,WTDRDQBEARUVNC-LURJTMIESA-N,-2.0,Near,1.0,0.54,-1.991,-1.65,-1.003
+SC2-057,Solubility (logS0),SC-2 (tight),CC(=O)N1CCN(c2ccc(OC[C@H]3CO[C@](Cn4ccnc4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1,XMAYWYJOQHXEEK-OZXSUGGESA-N,-4.92,Near,1.0,-5.69,-3.464,-4.614,-3.965
+SC2-072,Solubility (logS0),SC-2 (tight),COc1ccc(Cc2nccc3cc(OC)c(OC)cc23)cc1OC,XQYZDYMELSJDRZ-UHFFFAOYSA-N,-4.58,Near,1.0,-3.88,-4.385,-3.736,-4.701
+SC2-053,Solubility (logS0),SC-2 (tight),C=CC(=O)N1CCC[C@@H](n2nc(-c3ccc(Oc4ccccc4)cc3)c3c(N)ncnc32)C1,XYFPWWZEPKGCCK-GOSISDBHSA-N,-5.02,Novel,0.231,-4.9,-3.59,-4.489,-4.783
+SC2-091,Solubility (logS0),SC-2 (tight),Cc1cc(NS(=O)(=O)c2ccc(N)cc2)nc(C)n1,YZMCKZRAOLZXAZ-UHFFFAOYSA-N,-3.16,Near,0.658,-1.63,-2.484,-2.301,-2.654
+SC2-081,Solubility (logS0),SC-2 (tight),CN(C)CCCN1c2ccccc2Sc2ccccc21,ZGUGWUXLJSTTMA-UHFFFAOYSA-N,-3.82,Near,1.0,-4.65,-4.602,-4.507,-4.438
+SC2-050,Solubility (logS0),SC-2 (tight),Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc2)cn1,ZJJXGWJIGJFDTL-UHFFFAOYSA-N,-3.42,Intermediate,0.507,-3.43,-3.729,-4.014,-3.819
+SC2-045,Solubility (logS0),SC-2 (tight),O=C(O)CCC(=O)c1ccc(-c2ccccc2)cc1,ZPAKPRAICRBAOD-UHFFFAOYSA-N,-4.51,Near,1.0,-3.57,-4.052,-4.96,-3.701
+SC2-029,Solubility (logS0),SC-2 (tight),O=c1c(-c2ccc(O)cc2)coc2cc(O)ccc12,ZQSIJRDFPHDXIC-UHFFFAOYSA-N,-5.42,Novel,0.26,-3.03,-3.107,-3.79,-3.706
+SC2-009,Solubility (logS0),SC-2 (tight),CCC(C)C1(CC)C(=O)NC(=O)NC1=O,ZRIHAIZYIMGOAB-UHFFFAOYSA-N,-1.71,Intermediate,0.5,-2.0,-2.026,-2.145,-2.066
+SC2-128,Solubility (logS0),SC-2 (loose),COc1cc(NS(=O)(=O)c2ccc(N)cc2)nc(OC)n1,ZZORFUFYDOWNEF-UHFFFAOYSA-N,-2.17,Near,1.0,-2.88,-2.568,-2.917,-3.33
+SC2-113,Solubility (logS0),SC-2 (loose),CN(C)CCOC(c1ccccc1)c1ccccc1,ZZVUWRFHKOJYTH-UHFFFAOYSA-N,-4.29,Near,1.0,-3.55,-3.269,-2.573,-3.04
+HERG-059,hERG (blocker@10uM),CardioTox external SetIII (10uM),CC(C)Cn1c(=O)n(C)c(=O)c2[nH]cnc21,APIXJSLKIYYUKG-UHFFFAOYSA-N,0.0,Novel,0.395,,No,0.465,0.306
+HERG-018,hERG (blocker@10uM),CardioTox external SetI (10uM),C/C(=C(/F)C(=O)Nc1ccc(-c2ccc(S(N)(=O)=O)cc2)cc1)c1cccc(C(=N)N)c1,APJOCAPTSRIKGO-STZFKDTASA-N,1.0,Novel,0.264,,Yes,0.58,0.807
+HERG-073,hERG (blocker@10uM),CardioTox external SetIII (10uM),CCCN(CCC)[C@@H]1CCc2cccc(O)c2C1,ASXGJMSKWNBENU-CQSZACIVSA-N,0.0,Near,0.608,,No,0.852,0.867
+HERG-045,hERG (blocker@10uM),CardioTox external SetIII (10uM),CCC[N+]1C[C@H](CSC)C[C@@H]2c3cccc4c3C(C=N4)C[C@H]21,BLUAASNRIJJGKL-RILYDNKNSA-N,1.0,Novel,0.307,,Yes,0.67,0.908
+HERG-008,hERG (blocker@10uM),CardioTox external SetI (10uM),CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12,BNRNXUUZRGQAQC-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.474,0.808
+HERG-053,hERG (blocker@10uM),CardioTox external SetIII (10uM),O[C@@H](c1cc(C(F)(F)F)nc2c(C(F)(F)F)cccc12)[C@H]1CCCC[N+]1,BQMMQFOHWIHDTD-DOMZBBRYSA-N,0.0,Near,0.661,,Yes,0.288,0.919
+HERG-067,hERG (blocker@10uM),CardioTox external SetIII (10uM),CC(=O)Oc1ccccc1C(=O)O,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.072,0.003
+HERG-066,hERG (blocker@10uM),CardioTox external SetIII (10uM),CC(=O)Nc1nnc(S(N)(=O)=O)s1,BZKPWHYZMXOIDC-UHFFFAOYSA-N,0.0,Intermediate,0.474,,No,0.067,0.01
+HERG-020,hERG (blocker@10uM),CardioTox external SetI (10uM),O=C1N(Cc2ccccc2)C2C[S+]3CCCC3C2N1Cc1ccccc1,CHQOEHPMXSHGCL-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.822,0.961
+HERG-026,hERG (blocker@10uM),CardioTox external SetI (10uM),COCCCC/C(=N\OCCN)c1ccc(C(F)(F)F)cc1,CJOFXWAVKWHTFT-XSFVSMFZSA-N,1.0,Near,1.0,,Yes,0.663,0.891
+HERG-031,hERG (blocker@10uM),CardioTox external SetI (10uM),Cc1ccc(CCN(C)CCCN(C(=O)c2ccc([N+](=O)[O-])cc2)c2ccc(C)c(C)c2)cc1C,CVNCKFCEWFWLPQ-UHFFFAOYSA-N,1.0,Novel,0.256,,Yes,0.912,0.963
+HERG-013,hERG (blocker@10uM),CardioTox external SetI (10uM),CN1CC(=O)C2C(Cc3c([nH]c4ccccc34)C2c2cccc3c2OCO3)C1=O,DILLBCAFAMFQHI-UHFFFAOYSA-N,0.0,Intermediate,0.486,,Yes,0.671,0.657
+HERG-047,hERG (blocker@10uM),CardioTox external SetIII (10uM),CC(C)COC[C@@H](CN(Cc1ccccc1)c1ccccc1)[N+]1CCCC1,FLEJZHACHXCVCS-XMMPIXPASA-N,1.0,Near,0.608,,Yes,0.81,0.992
+HERG-016,hERG (blocker@10uM),CardioTox external SetI (10uM),CCCCCCCCCC[N+](CC)(CC)CC,FMGOXRYKYRAOGN-UHFFFAOYSA-N,1.0,Novel,0.381,,No,0.991,0.951
+HERG-056,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=C(NCC1CCCC[N+]1)c1cc(OCC(F)(F)F)ccc1OCC(F)(F)F,GBAGMXIXQLFBJR-UHFFFAOYSA-N,0.0,Intermediate,0.455,,Yes,0.601,0.876
+HERG-083,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=S(=O)(c1cccc(F)c1)N1CCC(CCc2ccc(F)cc2F)CC1,GDWBWUCRKAYOMD-UHFFFAOYSA-N,1.0,Novel,0.256,,Yes,0.721,0.946
+HERG-077,hERG (blocker@10uM),CardioTox external SetIII (10uM),Nc1nc2[nH]c(=O)cnc2c(=O)[nH]1,GLKCOBIIZKYKFN-UHFFFAOYSA-N,0.0,Novel,0.195,,No,0.144,0.11
+HERG-072,hERG (blocker@10uM),CardioTox external SetIII (10uM),N#C/C(=C\c1ccc(O)c(O)c1)C(=O)NCCCc1ccccc1,GSQOBTOAOGXIFL-LFIBNONCSA-N,0.0,Novel,0.318,,Yes,0.721,0.646
+HERG-071,hERG (blocker@10uM),CardioTox external SetIII (10uM),NC1=N[C@@]2(CO1)c1cc(-c3ncccc3F)ccc1Oc1c2cc(C2=CCCOC2)nc1F,HGRWHBQLRXWSLV-DEOSSOPVSA-N,0.0,Novel,0.174,,Yes,0.532,0.822
+HERG-030,hERG (blocker@10uM),CardioTox external SetI (10uM),CN(C)CCCn1cc(C2C(=O)NC(=O)C2c2c[nH]c3ccccc23)c2ccccc21,HIKMNTKMXMEJDB-UHFFFAOYSA-N,1.0,Novel,0.295,,Yes,0.6,0.771
+HERG-054,hERG (blocker@10uM),CardioTox external SetIII (10uM),C[N+](C)CCCN1c2ccccc2CCc2ccccc21,HIXALNPAFJLRHJ-UHFFFAOYSA-N,0.0,Near,0.611,,Yes,0.532,0.978
+HERG-042,hERG (blocker@10uM),CardioTox external SetI (10uM),O=C(NC(CCN1CCC(n2cnc(Cc3ccccc3)n2)CC1)c1ccccc1)C1CCC1,HJIFNRLOZKIKIM-UHFFFAOYSA-N,1.0,Novel,0.28,,Yes,0.866,0.867
+HERG-063,hERG (blocker@10uM),CardioTox external SetIII (10uM),C[N+]1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5,HLAMSGVXOYCOKP-KBQPJGBKSA-N,0.0,Near,0.614,,Yes,0.193,0.235
+HERG-036,hERG (blocker@10uM),CardioTox external SetI (10uM),O=C1Nc2ccccc2C1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,HMMQYWRYNZBDAE-UHFFFAOYSA-N,1.0,Novel,0.382,,Yes,0.908,0.944
+HERG-057,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=C(OC1C[C@@H]2CC3C[C@H](C1)[N+]2CC3=O)C1=c2ccccc2=NC1,HQAFUFZLXKZIGD-AKJUYKBHSA-N,0.0,Novel,0.309,,Yes,0.312,0.687
+HERG-012,hERG (blocker@10uM),CardioTox external SetI (10uM),CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl,HTIQEAQVCYTUBX-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.778,0.407
+HERG-044,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=C(CCC[N+]1CCC(O)(c2ccc(Cl)cc2)CC1)c1ccc(F)cc1,ICMLRJJLJVVQGT-UHFFFAOYSA-N,1.0,Near,0.654,,Yes,0.61,0.924
+HERG-006,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1cc2nc(N3CCN(C(=O)c4ccco4)CC3)nc(N)c2cc1OC,IENZQIKPVFGBNW-UHFFFAOYSA-N,1.0,Near,0.651,,Yes,0.569,0.847
+HERG-068,hERG (blocker@10uM),CardioTox external SetIII (10uM),COc1cc(C)c(\C=C/C(C)=C/C=C\C(C)=C\C(=O)O)c(C)c1C,IHUNBGSDBOWDMA-STTAGXNUSA-N,0.0,Near,1.0,,Yes,0.122,0.188
+HERG-024,hERG (blocker@10uM),CardioTox external SetI (10uM),c1ccc(C2(c3ccccc3)C[C@H]2C2=NCCN2)cc1,IPOBOOXFSRWSHL-INIZCTEOSA-N,1.0,Novel,0.375,,Yes,0.681,0.861
+HERG-017,hERG (blocker@10uM),CardioTox external SetI (10uM),CCCCCCCC[N+](CC)(CC)CC,JHNACYHGMDXEMK-UHFFFAOYSA-N,1.0,Novel,0.381,,No,0.989,0.91
+HERG-058,hERG (blocker@10uM),CardioTox external SetIII (10uM),C[N+](C)CCC=C1c2ccccc2CCc2ccccc21,JXLMVGKHSLKZFN-UHFFFAOYSA-N,0.0,Near,0.611,,Yes,0.57,0.961
+HERG-079,hERG (blocker@10uM),CardioTox external SetIII (10uM),CN(C)CCC=C1c2ccccc2CCc2ccccc21,KRMDCWKBEZIMAB-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.838,0.962
+HERG-052,hERG (blocker@10uM),CardioTox external SetIII (10uM),CCC(=O)N(c1ccccc1)C1CC[N+](CCc2ccccc2)CC1,KZTVAPPFRZPMJA-UHFFFAOYSA-N,0.0,Near,0.633,,Yes,0.706,0.961
+HERG-049,hERG (blocker@10uM),CardioTox external SetIII (10uM),C=C[C@H]1C[N+]2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccc(OC)cc12,LCZKRPAXTKFXKO-LHHVKLHASA-N,0.0,Near,0.627,,Yes,0.262,0.793
+HERG-076,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=C1C2(Cl)C3(Cl)C4(Cl)C(Cl)(Cl)C5(Cl)C3(Cl)C1(Cl)C5(Cl)C24Cl,LHHGDZSESBACKH-UHFFFAOYSA-N,0.0,Novel,0.152,,Yes,0.467,0.268
+HERG-050,hERG (blocker@10uM),CardioTox external SetIII (10uM),C[N+]1CC[N+](CCCCN2C(=O)CN(N=Cc3ccc(-c4ccc(Cl)cc4)o3)C2=O)CC1,LMNFBJVBICKILT-UHFFFAOYSA-N,0.0,Novel,0.351,,Yes,0.142,0.939
+HERG-082,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=C1Nc2ccc(I)cc2/C1=C/c1cc(Br)c(O)c(Br)c1,LMXYVLFTZRPNRV-KMKOMSMNSA-N,1.0,Novel,0.171,,Yes,0.903,0.656
+HERG-004,hERG (blocker@10uM),CardioTox external SetI (10uM),CCC(COC(=O)c1cc(OC)c(OC)c(OC)c1)(c1ccccc1)N(C)C,LORDFXWUHHSAQU-UHFFFAOYSA-N,0.0,Novel,0.323,,Yes,0.725,0.82
+HERG-015,hERG (blocker@10uM),CardioTox external SetI (10uM),CN1CCN([C@@H]2c3ccccc3Nc3ccc(Cl)cc3N2O)CC1,LTRSQBSUNYICJX-SFHVURJKSA-N,0.0,Intermediate,0.448,,Yes,0.486,0.933
+HERG-070,hERG (blocker@10uM),CardioTox external SetIII (10uM),Nc1nc(=O)c2ncn(COCCO)c2[nH]1,MKUXAQIIEYXACX-UHFFFAOYSA-N,0.0,Intermediate,0.571,,No,0.139,0.06
+HERG-051,hERG (blocker@10uM),CardioTox external SetIII (10uM),C[N+](C)CCCN1c2ccccc2Sc2ccc(Cl)cc21,MOFWZSVBZGBGFQ-UHFFFAOYSA-N,0.0,Near,0.689,,Yes,0.68,0.966
+HERG-064,hERG (blocker@10uM),CardioTox external SetIII (10uM),Cc1cccc(C[N+]2CC[N+](C(c3ccccc3)c3ccc(Cl)cc3)CC2)c1,NAFMUOOEFOMDBH-UHFFFAOYSA-N,1.0,Intermediate,0.491,,Yes,0.747,0.989
+HERG-003,hERG (blocker@10uM),CardioTox external SetI (10uM),CCCC(CCC)C(=O)O,NIJJYAXOARWZEE-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.232,0.012
+HERG-002,hERG (blocker@10uM),CardioTox external SetI (10uM),CCN(CC)CC(=O)Nc1c(C)cccc1C,NNJVILVZKWQKPM-UHFFFAOYSA-N,0.0,Intermediate,0.462,,No,0.497,0.548
+HERG-021,hERG (blocker@10uM),CardioTox external SetI (10uM),CC(C)(C)c1cn(-c2ccc(F)cc2)c2ccccc12,OCRUGJLMFZVFHV-UHFFFAOYSA-N,0.0,Novel,0.279,,Yes,0.756,0.791
+HERG-022,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccccc1OCCNC[C@@H](O)COc1cccc2[nH]c3ccccc3c12,OGHNVEJMJSYVRP-QGZVFWFLSA-N,1.0,Near,1.0,,Yes,0.891,0.981
+HERG-034,hERG (blocker@10uM),CardioTox external SetI (10uM),CCN(CC)c1ccc(NC(=O)C2CCc3cccc(OC)c3C2N(C)C(=O)OCC(C)C)cc1,OIDBKVMEVCCZHO-UHFFFAOYSA-N,1.0,Novel,0.228,,Yes,0.798,0.893
+HERG-039,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccc(C(=O)Nc2ccccc2CCC2CCCCN2C)cc1,PJWPNDMDCLXCOM-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.778,0.977
+HERG-029,hERG (blocker@10uM),CardioTox external SetI (10uM),CC(C)(C)N(CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C\c1ccc(Cl)cc1)C(C)(C)C,PNRIEBLYDWPIDU-YDZHTSKRSA-N,1.0,Near,0.691,,Yes,0.899,0.958
+HERG-065,hERG (blocker@10uM),CardioTox external SetIII (10uM),CCCC(=O)Nc1ccc(OCC(O)C[N+]C(C)C)c(C(C)=O)c1,PQIAXYKYABEFTH-UHFFFAOYSA-N,0.0,Intermediate,0.477,,Yes,0.294,0.292
+HERG-043,hERG (blocker@10uM),CardioTox external SetI (10uM),CCN(CC)CCCN(c1ccccc1)C1CCc2ccccc21,QPDDLDVIOXVJFH-UHFFFAOYSA-N,1.0,Near,0.628,,Yes,0.89,0.99
+HERG-033,hERG (blocker@10uM),CardioTox external SetI (10uM),COCC(=O)OC1(CCN(C)CCCC2=NC3C=CC=CC3=N2)CCc2cc(F)ccc2C1C(C)C,RLNMBDPMRDSIFQ-UHFFFAOYSA-N,1.0,Novel,0.217,,Yes,0.823,0.977
+HERG-078,hERG (blocker@10uM),CardioTox external SetIII (10uM),NNc1nncc2ccccc12,RPTUSVTUFVMDQK-UHFFFAOYSA-N,0.0,Novel,0.342,,No,0.275,0.318
+HERG-060,hERG (blocker@10uM),CardioTox external SetIII (10uM),CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=NOCOCCOC)[C@H](C)[C@@H](O)[C@]1(C)O,RXZBMPWDPOLZGW-HITVVWEBSA-N,0.0,Near,1.0,,Yes,0.295,0.461
+HERG-061,hERG (blocker@10uM),CardioTox external SetIII (10uM),COC1C(OC(C)=O)CC(=O)OC(C)CC=CC=CC(O)C(C)CC(CC=O)C1OC1OC(C)C(OC2CC(C)(O)C(OC(=O)CC(C)C)C(C)O2)C([N+](C)C)C1O,RZNZEVDHFNSYRY-UHFFFAOYSA-N,0.0,Near,0.845,,Yes,0.074,0.29
+HERG-075,hERG (blocker@10uM),CardioTox external SetIII (10uM),Brc1cc(Br)c(Oc2cc(Br)c(Br)cc2Br)cc1Br,RZXIRSKYBISPGF-UHFFFAOYSA-N,0.0,Novel,0.219,,No,0.83,0.557
+HERG-032,hERG (blocker@10uM),CardioTox external SetI (10uM),CC(C)(C)c1ccc(C(=O)CCCN2CCC(OCc3ccccc3)CC2)cc1,SCMHOQQKHHUZOM-UHFFFAOYSA-N,1.0,Novel,0.371,,Yes,0.984,0.959
+HERG-074,hERG (blocker@10uM),CardioTox external SetIII (10uM),COCCOC(=O)C1=C(C)NC(C)=C(C(=O)OC(C)C)C1c1cccc([N+](=O)[O-])c1,UIAGMCDKSXEBJQ-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.51,0.613
+HERG-080,hERG (blocker@10uM),CardioTox external SetIII (10uM),CCN1CCN(c2nc(C)nc3c2nc(-c2ccccc2Cl)n3C)CC1,UMDBIKLFXMBCMH-UHFFFAOYSA-N,1.0,Novel,0.299,,Yes,0.779,0.962
+HERG-025,hERG (blocker@10uM),CardioTox external SetI (10uM),CC(C)CC(N(C)C)C1(c2ccc(Cl)cc2)CCC1,UNAANXDKBXWMLN-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.859,0.754
+HERG-027,hERG (blocker@10uM),CardioTox external SetI (10uM),OCCOCCN1CCN(C2=Nc3ccccc3Sc3ccccc32)CC1,URKOMYMAXPYINW-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.843,0.983
+HERG-009,hERG (blocker@10uM),CardioTox external SetI (10uM),CC(=O)SC1CC2=CC(=O)CCC2(C)C2CCC3C(CCC34CCC(=O)O4)C12,UTCPYQMSANLUTE-UHFFFAOYSA-N,0.0,Near,0.667,,Yes,0.315,0.172
+HERG-038,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccc(CCN(C)CCCNc2c(Cl)cn[nH]c2=O)cc1OC,UUMQGMCYAJYYQR-UHFFFAOYSA-N,1.0,Novel,0.394,,Yes,0.866,0.854
+HERG-014,hERG (blocker@10uM),CardioTox external SetI (10uM),CC(C)N(CCC(C(N)=O)(c1ccccc1)c1ccccn1)C(C)C,UVTNFZQICZKOEM-UHFFFAOYSA-N,0.0,Near,0.739,,Yes,0.734,0.747
+HERG-011,hERG (blocker@10uM),CardioTox external SetI (10uM),CCS(=O)(=O)NC1c2cc(C#N)ccc2C(=O)C(C)(C)C1O,UXXZYDHTCUOVTH-UHFFFAOYSA-N,1.0,Novel,0.216,,No,0.519,0.2
+HERG-062,hERG (blocker@10uM),CardioTox external SetIII (10uM),COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)[N+](C)CC[C@@]341,VCCSMQYVCLBXKP-DNJOTXNNSA-N,0.0,Near,0.633,,Yes,0.145,0.469
+HERG-069,hERG (blocker@10uM),CardioTox external SetIII (10uM),Cc1ccc(/C(=C/C[N+]2CCCC2)c2cccc(/C=C\C(=O)[O-])n2)cc1,VLNVGIHUKGLXON-WKLWQRMESA-M,0.0,Novel,0.354,,Yes,0.184,0.389
+HERG-023,hERG (blocker@10uM),CardioTox external SetI (10uM),CNCCCC1c2ccccc2CCc2ccccc21,VQDUUNLXNKNTSM-UHFFFAOYSA-N,1.0,Near,0.629,,Yes,0.866,0.911
+HERG-041,hERG (blocker@10uM),CardioTox external SetI (10uM),O=C(NC(CCN1CCC(c2noc(Cc3ccccc3)n2)CC1)c1ccccc1)C1CCC1,WJRHWKLKYSTKDD-UHFFFAOYSA-N,1.0,Novel,0.28,,Yes,0.913,0.87
+HERG-037,hERG (blocker@10uM),CardioTox external SetI (10uM),CCCCCCC[N+](CC)(CC)CCCCc1ccc(Cl)cc1,WPSYTTKBGAZSCX-UHFFFAOYSA-N,1.0,Intermediate,0.405,,Yes,1.0,0.983
+HERG-019,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccccc1OCCNCC(O)COc1cccc2c1C1C=CC=CC1=N2,WTZRZLGEZIFRDO-UHFFFAOYSA-N,0.0,Intermediate,0.522,,Yes,0.871,0.946
+HERG-001,hERG (blocker@10uM),CardioTox external SetI (10uM),CCOC(=O)C1(c2ccccc2)CCN(C)CC1,XADCESSVHJOZHK-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.81,0.558
+HERG-055,hERG (blocker@10uM),CardioTox external SetIII (10uM),Nc1ccc(C(=O)N2C[C@H]3C[C@@H](C2)C[N+](Cc2ccccc2)C3)cc1,XBGFKODAWDCQAV-HDICACEKSA-N,0.0,Novel,0.294,,Yes,0.342,0.967
+HERG-084,hERG (blocker@10uM),CardioTox external SetIII (10uM),O=S(=O)(c1ccc(F)cc1)N1CCC(O)(CCc2ccc(F)cc2F)CC1,XWWMSPYJKMBSOT-UHFFFAOYSA-N,1.0,Novel,0.25,,Yes,0.678,0.943
+HERG-005,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccc(N(C(C)=O)c2cc3c(cc2[N+](=O)[O-])OC(C)(C)C(O)C3NC2CC2)cc1,XZEITPHZKJCCSQ-UHFFFAOYSA-N,0.0,Novel,0.26,,Yes,0.472,0.708
+HERG-007,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccc2cc3[n+](cc2c1OC)CCc1cc2c(cc1-3)OCO2,YBHILYKTIRIUTE-UHFFFAOYSA-N,1.0,Novel,0.278,,Yes,0.466,0.627
+HERG-028,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccc(CN(CCN(C)C)c2ccccn2)cc1,YECBIJXISLIIDS-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.891,0.891
+HERG-040,hERG (blocker@10uM),CardioTox external SetI (10uM),CCOc1cc(N)c(Cl)cc1C(=O)NCC1CN(Cc2ccc(F)cc2)CCO1,YPELFRMCRYSPKZ-UHFFFAOYSA-N,1.0,Novel,0.363,,Yes,0.775,0.93
+HERG-046,hERG (blocker@10uM),CardioTox external SetIII (10uM),CC(C)(C)c1ccc(C(=O)CCC[N+]2CCC(OC(c3ccccc3)c3ccccc3)CC2)cc1,YPYUSOLNFCETJV-UHFFFAOYSA-N,1.0,Novel,0.375,,Yes,0.8,0.968
+HERG-035,hERG (blocker@10uM),CardioTox external SetI (10uM),O=C(Cc1ccc(F)cc1)NC1CCN(CCC(NC(=O)C2CCC2)c2ccccc2)CC1,YQOKDKXYGHIVEJ-UHFFFAOYSA-N,1.0,Novel,0.321,,Yes,0.766,0.902
+HERG-081,hERG (blocker@10uM),CardioTox external SetIII (10uM),Clc1ccc(C(c2ccc(Cl)cc2)C(Cl)(Cl)Cl)cc1,YVGGHNCTFXOJCH-UHFFFAOYSA-N,1.0,Novel,0.344,,No,0.881,0.664
+HERG-010,hERG (blocker@10uM),CardioTox external SetI (10uM),COc1ccc(C(=O)N2CCN(c3ccc4c(c3)CCC(=O)N4)CC2)cc1OC,ZVNYJIZDIRKMBF-UHFFFAOYSA-N,1.0,Novel,0.308,,Yes,0.383,0.638
+HERG-048,hERG (blocker@10uM),CardioTox external SetIII (10uM),C[N+]1[C@@H]2CC[C@H]1C[C@@H](OC(=O)C(CO)c1ccccc1)C2,ZVPJDRRWMYGYKM-SPUOUPEWSA-N,1.0,Near,0.689,,Yes,0.132,0.62
+BBB-029,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COn1cc(C(=O)O)c(=O)c2cc3c(cc21)OCO3,ABQYZRZVRIPTPI-UHFFFAOYSA-N,1.0,Intermediate,0.481,No,-0.479,0.013102044,0.463
+BBB-059,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CC(O)CC2,ABWPQNZPAOAQSG-UHFFFAOYSA-N,1.0,Near,0.786,No,-0.562,0.998920679,0.969
+BBB-006,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Nc1ccc(C(=O)O)cc1,ALYNCZNDIQEVRV-UHFFFAOYSA-N,0.0,Intermediate,0.5,Yes,-0.31,0.029434066,0.448
+BBB-057,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CNS(=O)(=O)CCc1ccc2[nH]cc(C3CCN(C)CC3)c2c1,AMKVXSZCKVJAGH-UHFFFAOYSA-N,1.0,Near,1.0,Yes,-0.091,0.99410677,0.966
+BBB-051,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=c1cccc2n1CC1CNCC2C1,ANJTVLIZGCUXLD-UHFFFAOYSA-N,0.0,Near,1.0,No,-0.057,0.998278856,0.959
+BBB-142,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1nc(Nc2ncc(C(=O)Nc3c(Cl)cccc3Cl)s2)cc(N2CCN(CCO)CC2)n1,AQYKQVZJARJBMR-UHFFFAOYSA-N,0.0,Near,0.693,No,-1.346,0.007797078,0.513
+BBB-109,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)NC(O)COc1ccc(CC(N)=O)cc1,ASKBPIDMAJTIHH-UHFFFAOYSA-N,0.0,Intermediate,0.449,No,-0.285,0.04767593,0.444
+BBB-132,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCC(CC)O[C@@H]1C=C(C(=O)O)C[C@H](N)[C@@H]1NCOC,BDMYFOQWUPLTBP-XQQFMLRXSA-N,0.0,Intermediate,0.491,No,-0.509,0.003527467,0.631
+BBB-040,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CS(=O)(=O)N(CCO)c1c(Cl)c(Cl)cc2[nH]c(=O)c(=O)[nH]c12,BGJHUMNCODFLCH-UHFFFAOYSA-N,0.0,Novel,0.212,No,-1.202,0.048867397,0.4
+BBB-145,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(O)c1cc(=O)c2c(Cl)cc(Cl)cc2[nH]1,BGKFPRIGXAVYNX-UHFFFAOYSA-N,0.0,Novel,0.245,Yes,-0.379,0.039600004,0.281
+BBB-170,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCCCCC,BKIMMITUMNQMOS-UHFFFAOYSA-N,1.0,Near,0.615,Yes,0.699,0.721201241,0.995
+BBB-123,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1ccc(S(=O)(=O)Nc2cc(Br)cc(F)c2Br)cc1N1CCNCC1,BLWHAZZXRHTFJE-UHFFFAOYSA-N,1.0,Novel,0.26,No,-1.005,0.71178627,0.737
+BBB-028,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12,BNRNXUUZRGQAQC-UHFFFAOYSA-N,0.0,Near,1.0,No,-1.124,0.013837258,0.462
+BBB-023,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cn1nnc2c(C(N)=O)ncn2c1=O,BPEGJWRSRHCHSN-UHFFFAOYSA-N,1.0,Near,1.0,No,-0.657,0.794081807,0.931
+BBB-128,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1Cc2c(-c3noc(C(C)(O)O)n3)ncn2-c2cccc(Cl)c2C1=O,BUYDHFLIFNJTEH-UHFFFAOYSA-N,0.0,Novel,0.284,No,-0.931,0.075603954,0.506
+BBB-095,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(/C(=C/CN2CCCC2)c2ccccn2)cc1,CBEQULMOCCWAQT-WQRHYEAKSA-N,1.0,Near,1.0,Yes,0.728,0.991580307,0.988
+BBB-149,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1nc2n(c(=O)c1CCN1CCC(c3coc4cc(F)ccc34)CC1)CCCC2,CCCBULVFQMYIJZ-UHFFFAOYSA-N,1.0,Near,0.743,Yes,0.153,0.994258404,0.991
+BBB-054,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)Cc1ccc(C(=O)Nc2cc(-c3cccs3)ccc2N)cc1,CDSJTPFTORKEDK-UHFFFAOYSA-N,1.0,Novel,0.263,No,0.035,0.159381464,0.877
+BBB-168,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",C=CCOc1ccccc1OCC(O)CNC(C)C,CEMAWMOMDPGJMB-UHFFFAOYSA-N,1.0,Near,1.0,Yes,-0.033,0.010509274,0.766
+BBB-055,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2O,CEYGCFLPQFNPST-UHFFFAOYSA-N,0.0,Intermediate,0.596,Yes,0.038,0.99999547,0.801
+BBB-032,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1[C@H]2CC[C@H]1[C@@H](CC(=O)O)[C@@H](OC(=O)c1ccccc1)C2,CFEAIVJTMABOIJ-XGUBFFRZSA-N,0.0,Near,0.647,Yes,-0.075,0.096572854,0.88
+BBB-153,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC1CCN(CCC2CCN2S(=O)(=O)c2cccc(O)c2)CC1,CHWBZTWZASGQHM-UHFFFAOYSA-N,1.0,Novel,0.299,Yes,-0.042,0.181776747,0.943
+BBB-110,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCc1ccc(-c2ccc(C(=O)N(C)C3CCN(C(=O)N4CCC(N5CCCCC5)C4)C3)cc2)cc1,CIPAOWLQTIPSII-UHFFFAOYSA-N,1.0,Novel,0.349,Yes,0.231,0.976258457,0.932
+BBB-116,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)CC(=O)c1ccc(OCCCCOc2ccc3ccc(=O)oc3c2)cc1O,CLQSJCIFSYYOLF-UHFFFAOYSA-N,0.0,Novel,0.288,No,-0.498,9.21e-06,0.144
+BBB-039,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CNC(C[N+](=O)[O-])=NCCSc1ccc(CN(C)C)o1,CTVWDECRSJQAAN-UHFFFAOYSA-N,0.0,Intermediate,0.435,No,-0.828,0.883547723,0.808
+BBB-077,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O,CZMRCDWAGMRECN-UGDNZRGBSA-N,0.0,Near,0.795,No,-1.163,0.032849438,0.51
+BBB-047,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)Cc1ccc(C(=O)Nc2ccccc2N)cc1,DCCBAHNQGUQUGL-UHFFFAOYSA-N,1.0,Novel,0.32,Yes,0.027,0.367077798,0.956
+BBB-119,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,DCOPUUMXTXDBNB-UHFFFAOYSA-N,0.0,Near,1.0,Yes,0.113,0.997380674,0.612
+BBB-135,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)Cc1ccc(CSCCNc2[nH]ccc2[N+](=O)[O-])o1,DHYIGZBRHRKUJI-UHFFFAOYSA-N,0.0,Intermediate,0.533,No,-0.872,0.032355707,0.819
+BBB-172,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)(C)O,DKGAVHZHDRPRBM-UHFFFAOYSA-N,1.0,Novel,0.357,Yes,-0.134,0.960950613,0.995
+BBB-012,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1cc(=O)n(-c2ccc(F)cc2)n1C,DPSOQADTQNTSSG-UHFFFAOYSA-N,1.0,Near,0.677,Yes,0.362,0.999060571,0.985
+BBB-075,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COC(=O)[C@@H]1C(=O)C=C(Nc2cccc([N+](=O)[O-])c2)C[C@H]1C,DPYRNTAPLILYLA-OTYXRUKQSA-N,0.0,Novel,0.353,No,-0.561,0.000486678,0.948
+BBB-182,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CNC(=O)c1c(NCC2CCC3(CCC3)CC2)nc(C#N)nc1OC1CC(C)(C)NC(C)(C)C1,FDHGENAHJDLTJT-UHFFFAOYSA-N,1.0,Novel,0.161,No,-0.672,0.469149977,0.897
+BBB-074,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(O)c1nc2ccc(C(F)(F)F)cc2nc1NCc1ccc(C(F)(F)F)cc1,FEJSMMIZTOMLEL-UHFFFAOYSA-N,0.0,Novel,0.322,No,-1.109,0.547475457,0.665
+BBB-081,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1nc(C)c(C)nc1C,FINHMKGKINIASC-UHFFFAOYSA-N,1.0,Novel,0.267,Yes,0.262,0.996513188,0.98
+BBB-115,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=c1[nH]c2cc(Cl)ccc2c(O)c1-c1cccc(Oc2ccccc2)c1,FLVRDMUHUXVRET-UHFFFAOYSA-N,0.0,Novel,0.333,Yes,0.056,0.062774099,0.268
+BBB-098,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)Oc1ccc(/C=C/C(=O)NCCc2ccccc2)cc1OC(C)=O,GARHCDOTUULBOQ-PKNBQFBNSA-N,0.0,Novel,0.34,No,-0.398,0.892072856,0.826
+BBB-181,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",NCc1c[n+]2ccccc2[nH]1,GBRIYMLJYQLICB-UHFFFAOYSA-O,0.0,Novel,0.211,No,-0.175,0.030867634,0.444
+BBB-016,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccccc1N=C1N(C)CCN1C,GECQYIJUASLOFZ-UHFFFAOYSA-N,0.0,Novel,0.289,Yes,0.487,0.986254215,0.988
+BBB-176,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ncc(-c2csc(N=C(N)N)n2)[nH]1,GIMNAEMRNXUAQP-UHFFFAOYSA-N,1.0,Novel,0.246,No,-0.592,0.485592365,0.465
+BBB-026,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)OCC(C)C,GJRQTCIYDGXPES-UHFFFAOYSA-N,1.0,Novel,0.357,Yes,-0.052,0.061465386,0.996
+BBB-105,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(O)CCCCO/N=C(\c1cccnc1)c1cccc(C(F)(F)F)c1,GLLPUTYLZIKEGF-QJOMJCCJSA-N,0.0,Near,1.0,No,-0.773,0.039155558,0.873
+BBB-083,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)C/C(C)=C\C=C\[C@@H](C)C(O)[C@@H](C)[C@H](O)[C@H](C)[C@H](OC(C)=O)[C@@H]1C,GLOJQGHACZHVEO-ZOCMDWSUSA-N,0.0,Near,0.769,No,-1.677,1.22e-08,0.062
+BBB-166,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](OC2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)C=C[C@H]3[C@H]1C5,GNJCUHZOSOYIEC-FJUCOFCUSA-N,0.0,Near,0.618,No,-0.838,0.999278247,0.463
+BBB-037,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1cn(C2CC(N=[N+]=N)C(CO)O2)c(=O)[nH]c1=O,GRNUVTSRBRIYIO-UHFFFAOYSA-O,1.0,Intermediate,0.525,No,-0.872,3.13e-07,0.314
+BBB-163,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(c1ccc(OCCN2CCCCC2)cc1)c1c(-c2ccc(O)cc2)sc2cc(O)ccc12,GZUITABIAKMVPG-UHFFFAOYSA-N,0.0,Near,1.0,No,-0.358,0.000290956,0.478
+BBB-101,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCOC(=O)NNc1ccc(N(CC(C)O)C(C)C)nn1,HIBVSSCXCTVVSR-UHFFFAOYSA-N,0.0,Novel,0.266,No,-1.266,0.000101381,0.701
+BBB-089,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=c1cc(NC2CCN(C/C=C/c3ccccc3)CC2)c2cc(Cl)ccc2o1,HMDKIXQRZGNMNZ-QPJJXVBHSA-N,1.0,Novel,0.349,Yes,0.198,0.93860954,0.987
+BBB-053,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(CC2CNC(NCCCCc3ncc(Br)cc3C)NC2=O)cn1,HODUKEZHHKVLBN-UHFFFAOYSA-N,0.0,Novel,0.207,No,-0.576,0.091063902,0.615
+BBB-121,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=c1cc(NC2CCN(Cc3ccc4c(c3)CCO4)CC2)c2cc(Cl)ccc2o1,HXHZJLLLLXIFNR-UHFFFAOYSA-N,1.0,Novel,0.333,Yes,0.105,0.971158266,0.976
+BBB-169,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",C1CO1,IAYPIBMASNFSPL-UHFFFAOYSA-N,1.0,Novel,0.111,No,-0.12,0.623518169,0.998
+BBB-031,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(Cc2cnc(NCCSCc3ccc(CN(C)C)o3)[nH]c2=O)cn1,IKEHSFKMCULMKJ-UHFFFAOYSA-N,0.0,Novel,0.397,No,-0.795,6.62e-05,0.399
+BBB-041,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN=C(NC#N)NCCSCC1=NC=NC1C,IUQXOIVDUJHVIF-UHFFFAOYSA-N,0.0,Intermediate,0.545,No,-0.603,0.188196927,0.3
+BBB-118,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCOC(=O)c1ccc(N)cc1,IUWVALYLNVXWKX-UHFFFAOYSA-N,1.0,Near,0.677,Yes,0.057,0.509957373,0.944
+BBB-131,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)C(=O)Cn1nc(-c2c(-c3ccccc3)nn3ccccc23)ccc1=O,IYOUIFCFWOFLOU-UHFFFAOYSA-N,0.0,Novel,0.328,Yes,-0.421,0.931535125,0.696
+BBB-018,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",c1ccc(NC2=NCCN2)cc1,JCOPITWIWLFFPC-UHFFFAOYSA-N,0.0,Intermediate,0.559,No,-0.109,0.969080746,0.929
+BBB-160,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1cccnc1CCCCNc1ncc(Cc2cccc(C)n2)c(=O)[nH]1,JHHMCTKQHPNCEX-UHFFFAOYSA-N,0.0,Novel,0.247,No,-0.62,0.003117742,0.595
+BBB-122,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",F/C=C\O/C=C/F,JMGNVALALWCTLC-HSFFGMMNSA-N,1.0,Novel,0.091,Yes,0.605,0.336822867,0.995
+BBB-107,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)OC(C)C,JMMWKPVZQRWMSS-UHFFFAOYSA-N,1.0,Intermediate,0.458,Yes,-0.106,0.691834927,0.995
+BBB-147,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(O)C(=O)O,JVTAAEKCZFNVCJ-UHFFFAOYSA-N,1.0,Near,0.917,No,-0.335,0.373494536,0.674
+BBB-046,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",C=CC=C,KAKZBPTYRLMSJV-UHFFFAOYSA-N,1.0,Novel,0.13,No,0.009,0.46628359,0.982
+BBB-096,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC12CCC3c4ccc(O)cc4CCC3C1CC(F)C2O,KDLLNMRYZGUVMA-UHFFFAOYSA-N,1.0,Near,0.783,Yes,0.341,0.11384739,0.893
+BBB-148,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCc1cccc(N=C(C)Nc2cccc(CC)c2)c1,KFFBDUUIJZXEMY-UHFFFAOYSA-N,1.0,Novel,0.264,Yes,0.365,0.900923908,0.9
+BBB-091,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",NCC(CC(=O)O)c1ccc(Cl)cc1,KPYSYYIEGFHWSV-UHFFFAOYSA-N,0.0,Near,1.0,Yes,-0.082,0.990664244,0.628
+BBB-143,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)CCCN1c2ccccc2[S+]([O-])c2ccccc21,KSHDHDWHIWBNHA-UHFFFAOYSA-N,1.0,Near,0.622,Yes,0.431,0.999774039,0.993
+BBB-015,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,KTUFNOKKBVMGRW-UHFFFAOYSA-N,0.0,Near,1.0,No,-0.615,0.030725241,0.598
+BBB-111,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1cc2c(s1)Nc1ccccc1N=C2N1CCN(C)CC1,KVWDHTXUZHCGIO-UHFFFAOYSA-N,1.0,Near,1.0,Yes,0.213,0.999181688,0.994
+BBB-180,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1ccc(S(C)(=O)=O)cc1CNC1CCCNC1c1ccccc1,KYZSAIKOCXDHKT-UHFFFAOYSA-N,1.0,Novel,0.299,Yes,-0.108,0.855312824,0.916
+BBB-144,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",c1ccc2c(c1)CCCN2,LBUJPTNKIBCYBY-UHFFFAOYSA-N,1.0,Novel,0.25,Yes,0.551,0.951117396,0.997
+BBB-151,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1ccc2c(c1)C(CC(=O)O)C(C)N2C(=O)c1ccc(Cl)cc1,LCUUTQDVRHCQTB-UHFFFAOYSA-N,0.0,Intermediate,0.444,Yes,-0.045,0.03196419,0.738
+BBB-117,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1ccc2c3c1O[C@H]1[C@H](O)CC[C@@]4(O)C(C2)N(C)CC[C@]314,LHTAJTFGGUDLRH-MUUSZHPUSA-N,1.0,Near,0.656,No,-0.045,0.991663933,0.953
+BBB-019,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1cc2c(cc1CNC1C3CCN(C3)C1C(c1ccccc1)c1ccccc1)N(S(C)(=O)=O)CC2,LIVAIIMPQYHZOR-UHFFFAOYSA-N,0.0,Novel,0.284,Yes,-0.037,0.837166131,0.909
+BBB-020,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1ccc(NS(=O)(=O)c2sc3ccc(Cl)cc3c2C)cc1N1CCNCC1,LOCQRDBFWSXQQI-UHFFFAOYSA-N,0.0,Novel,0.28,No,-0.817,0.610168517,0.834
+BBB-061,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCO,LRHPLDYGYMQRHN-UHFFFAOYSA-N,1.0,Near,0.714,Yes,-0.043,0.908143818,0.971
+BBB-050,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",C[C@@H]1NC(=O)C2(CCCC2)NC1=O,LTRSPDHUDXWHRY-LURJTMIESA-N,1.0,Novel,0.188,No,-0.22,0.027325109,0.862
+BBB-056,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Oc1ccc(-c2ccc3cc(O)ccc3c2Oc2ccc(OCCN3CCCCC3)cc2)cc1,LXRGAVBXYQAUEY-UHFFFAOYSA-N,1.0,Intermediate,0.523,No,0.023,0.030601827,0.536
+BBB-008,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CO[C@H]1CN(CC2Cc3ccc(NC(=O)C(C)C)cc3C2)CCC1n1c(C)nc2cc(C)ccc21,LZBZURMZSQMQEB-HXFCYZAXSA-N,0.0,Novel,0.232,Yes,0.062,0.902818859,0.962
+BBB-049,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CS(=O)(=O)NC1CCC(CCN2CCN(c3cccc(Cl)c3Cl)CC2)CC1,MEEYWSYFAMXWHM-UHFFFAOYSA-N,1.0,Novel,0.347,Yes,0.036,0.999522209,0.975
+BBB-085,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCCCCCCCCCCCCCCOCC(COP(=O)([O-])OCC[N+](C)(C)C)OC,MHFRGQHAERHWKZ-UHFFFAOYSA-N,1.0,Novel,0.295,No,-1.274,9.92e-09,0.507
+BBB-069,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)OCCC(C)C,MLFHJEHSLIIPHL-UHFFFAOYSA-N,1.0,Novel,0.333,Yes,0.397,0.736056387,0.998
+BBB-113,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",NCC1(Cc2noc(=O)[nH]2)CCCCC1,MOEZPHHJIZLEKX-UHFFFAOYSA-N,0.0,Novel,0.359,No,-0.226,0.979538977,0.923
+BBB-157,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC1(C(=O)O)CCC2(C)CCC3(C)C(=CC(=O)C4C5(C)CCC(O)C(C)(C)C5CCC43C)C2C1,MPDGHEJMBKOTSU-UHFFFAOYSA-N,0.0,Novel,0.231,No,0.158,0.067165487,0.831
+BBB-183,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCC(C)(COC(N)=O)COC(=O)NC,MPWSEBACFSFMLW-UHFFFAOYSA-N,1.0,Intermediate,0.486,No,-0.518,0.999158978,0.987
+BBB-066,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CNCc1ccc(C(=O)Nc2cc(-c3ccccc3)ccc2N)cc1,MUTGWPBNXIEPJK-UHFFFAOYSA-N,1.0,Novel,0.34,Yes,-0.048,0.281496376,0.802
+BBB-126,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)N1CCc2ccc(N(C(=O)/C=C/c3cccc(C#N)c3)N3CCN(CCC4CCCC4)CC3)cc21,NBKUEHKOWOUYIC-FMIVXFBMSA-N,1.0,Novel,0.245,Yes,-0.417,0.480469882,0.919
+BBB-070,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)Cc1ccc(-c2c[nH]c(=O)c3cccc(O)c23)cc1,NCBXZVLOVKDCMW-UHFFFAOYSA-N,1.0,Novel,0.254,Yes,0.089,0.005781126,0.795
+BBB-036,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(O)c1cc(N=Nc2ccc(S(=O)(=O)Nc3ccccn3)cc2)ccc1O,NCEXYHBECQHGNR-UHFFFAOYSA-N,0.0,Near,1.0,No,-1.112,0.000174004,0.049
+BBB-022,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",NC(=O)[C@H]1c2ccccc2[C@H]2O[C@H]2c2ccccc21,NMQDLHGETBRRJD-QDMKHBRRSA-N,1.0,Novel,0.271,Yes,0.119,0.952482998,0.974
+BBB-090,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(O)c1ccc(-c2ccccc2)cc1,NNJMFJSKMRYHSR-UHFFFAOYSA-N,0.0,Intermediate,0.556,Yes,0.296,0.017214544,0.271
+BBB-139,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)O)OCC3,NNYBQONXHNTVIJ-UHFFFAOYSA-N,0.0,Near,1.0,Yes,-0.012,0.874375463,0.885
+BBB-134,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",OC[C@H]1OC(OC2=C(c3ccc(O)c(O)c3)OC3C=C(O)C=C(O)C3=C2)[C@H](O)[C@@H](O)[C@@H]1O,NQHXSBNXFQLBML-HWEJAWLUSA-N,1.0,Novel,0.282,No,-1.127,0.025962301,0.213
+BBB-120,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCCCCC1(CC)C(=O)NC(=O)NC1=O,NTYYDJWPKCQQIB-UHFFFAOYSA-N,1.0,Intermediate,0.417,No,-0.339,0.932169557,0.996
+BBB-078,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C1CN(/N=C/c2ccc([N+](=O)[O-])o2)C(=O)N1,NXFQHRVNIOXGAQ-YCRREMRBSA-N,0.0,Near,0.617,No,-0.901,0.007727644,0.967
+BBB-159,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN/C(=C/[N+](=O)[O-])NCCSc1ccc(CN(C)C)o1,OEGBNHWOFJHTKH-LUAWRHEFSA-N,0.0,Near,0.745,No,-0.856,0.003657409,0.764
+BBB-162,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1cc(N)c(Cl)cc1C(=O)N[C@@H]1CCNC[C@@H]1OC,OMLDMGPCWMBPAN-YPMHNXCESA-N,1.0,Novel,0.341,No,-0.533,0.049552143,0.95
+BBB-104,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(OCc1ccccc1)N1CCC(CNc2ccncc2)CC1,OOIJMSVOEKAGEL-UHFFFAOYSA-N,1.0,Novel,0.34,Yes,0.063,0.234841347,0.98
+BBB-099,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCC(=O)N(c1ccccc1)C1(COC)CCN(CCn2nnn(CC)c2=O)CC1,OPUPOXAJQLJLJP-UHFFFAOYSA-N,1.0,Near,0.862,No,-0.882,0.999936342,0.98
+BBB-114,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)Cc1ccc(SCCNc2[nH]ccc2[N+](=O)[O-])o1,OTGBLKZZZHLTFF-UHFFFAOYSA-N,0.0,Novel,0.379,No,-0.855,0.136023507,0.864
+BBB-064,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@@H](NCOC)[C@@H](N)C1,PBZSJMGKHMEBHC-ZNMIVQPWSA-N,0.0,Near,0.63,No,-0.502,0.148888931,0.767
+BBB-080,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC[C@H](C)C(=O)O[C@H]1C[C@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@H]21,PCZOHLXUXFIOCF-QEAVJYPTSA-N,1.0,Near,1.0,Yes,-0.167,3.31e-05,0.567
+BBB-167,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCOc1ccc(C(=O)c2cccc3ccccc23)c2ccccc12,PJDJPGOOOVJKMF-UHFFFAOYSA-N,0.0,Novel,0.353,Yes,0.353,0.003074088,0.56
+BBB-136,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CSc1nn2c(N3CCNCC3)c3c(nc2c1S(=O)(=O)c1ccccc1)CCC3,PPPVADQGCXVIIG-UHFFFAOYSA-N,0.0,Novel,0.221,No,-0.745,0.172351241,0.784
+BBB-140,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",NC(N)=Nc1nc(-c2ccc(O)c(O)c2)cs1,PQHOEQGYFYWQLL-UHFFFAOYSA-N,0.0,Novel,0.273,No,-0.59,0.202357829,0.216
+BBB-146,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCCCCCCCCCCCCOP(=O)([O-])OCC[N+](C)(C)C,PQLXHQMOHUQAKB-UHFFFAOYSA-N,0.0,Novel,0.351,No,-0.337,1.28e-08,0.602
+BBB-063,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=c1ccc(-c2c(-c3ccccc3)nn3ccccc23)nn1CCN1CCCCC1,PSDPQRITXCPIJU-UHFFFAOYSA-N,1.0,Novel,0.279,Yes,0.075,0.976711869,0.927
+BBB-177,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCN1CN(c2ccc(Br)cc2)C2(CCN(CCCC(=O)c3ccc(F)cc3)CC2)C1=O,PVFKZEOMFHZRPE-UHFFFAOYSA-N,1.0,Intermediate,0.463,Yes,0.167,0.999996424,0.98
+BBB-007,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(/C(=C\CN2CCCC2)c2cccc(/C=C/C(=O)O)n2)cc1,PWACSDKDOHSSQD-IUTFFREVSA-N,0.0,Intermediate,0.582,Yes,0.083,0.009134956,0.753
+BBB-178,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Nc1nc(NCCc2ccc(O)cc2)nc2nc(-c3ccco3)nn12,PWTBZOIUWZOPFT-UHFFFAOYSA-N,0.0,Novel,0.254,No,-0.893,0.197516173,0.463
+BBB-087,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1CCC[C@H]1Cc1c[nH]c2ccc(CCS(=O)(=O)c3ccccc3)cc12,PWVXXGRKLHYWKM-IBGZPJMESA-N,1.0,Near,1.0,Yes,0.067,0.97900635,0.955
+BBB-155,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCc1nc(N)nc(N)c1-c1ccc(Cl)c(Cl)c1,PXLPCZJACKUXGP-UHFFFAOYSA-N,1.0,Intermediate,0.426,Yes,-0.412,0.999819815,0.883
+BBB-065,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)c1nc(CN(C)C(=O)N[C@@H](C)C(=O)C[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)cs1,PYELINRBJHJZDQ-LMWIOMQRSA-N,0.0,Intermediate,0.495,No,-1.511,1.08e-05,0.313
+BBB-156,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(NC2=NCCN2)c(C)c1,QBXJXHODGDNKDJ-UHFFFAOYSA-N,0.0,Intermediate,0.467,Yes,0.297,0.991372347,0.897
+BBB-024,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Oc1c(I)cc(Cl)c2cccnc12,QCDFBFJGMNKBDO-UHFFFAOYSA-N,0.0,Near,0.719,Yes,0.341,0.003041358,0.593
+BBB-112,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1CN(c2ccccc2)C2(CCN(CCCC(=O)c3ccc(F)cc3)CC2)C1=O,QHJLPOSPWKZACG-UHFFFAOYSA-N,1.0,Intermediate,0.508,Yes,0.184,0.999887943,0.991
+BBB-052,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(CF)NC[C@H](O)COc1cccc2[nH]c3ccccc3c12,QHLGXPUIUKSADT-ABLWVSNPSA-N,1.0,Near,0.603,Yes,-0.037,0.045444064,0.904
+BBB-084,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",FC(F)(F)c1ccc(Cl)cc1,QULYNCCPRWKEMF-UHFFFAOYSA-N,1.0,Novel,0.268,No,0.496,0.998878896,0.998
+BBB-076,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCC1(C)C(=O)NC(=O)NC1=O,RCFRTWDBBMGLGK-UHFFFAOYSA-N,1.0,Novel,0.312,No,-0.17,0.994849741,0.981
+BBB-137,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Clc1cc(Cl)c(NC2=NCCN2)c(Cl)c1,REGMPMOUDUTRSJ-UHFFFAOYSA-N,1.0,Near,0.758,Yes,0.27,0.984117866,0.91
+BBB-106,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)(C)c1ccc(C(=O)N2CCN(c3ccc(OCCCN4CCCCC4)cc3)C(=O)C2)cc1,RLJKFXRSANDEJS-UHFFFAOYSA-N,0.0,Intermediate,0.444,Yes,0.113,0.117960885,0.891
+BBB-034,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)CC(N)C(=O)O,ROHFNLRQFUQHCH-UHFFFAOYSA-N,1.0,Near,1.0,No,-0.296,0.028562432,0.745
+BBB-130,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCn1c(=O)c2[nH]c(C3CCC(=O)C3)nc2n(CCC)c1=O,RUHGOZFOVBMWOO-UHFFFAOYSA-N,0.0,Novel,0.254,No,-0.54,0.118824169,0.901
+BBB-102,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,RZEKVGVHFLEQIL-UHFFFAOYSA-N,0.0,Near,1.0,No,-0.783,0.068817325,0.816
+BBB-161,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CSC(=N)N,SDDKIZNHOCEXTF-UHFFFAOYSA-N,1.0,Intermediate,0.417,No,-0.352,0.796331048,0.896
+BBB-141,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCc1nc(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(CC)CC4)ccc3OCC)nn12,SECKRCOLJRRGGV-UHFFFAOYSA-N,0.0,Near,0.712,No,-1.15,0.000525919,0.359
+BBB-011,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",FS(F)(F)(F)(F)F,SFZCNBIFKDRMGX-UHFFFAOYSA-N,1.0,Novel,0.1,Yes,0.385,0.999731123,1.0
+BBB-014,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",C=CCC1(C(C)CCCC)C(=O)NC(=O)N(C)C1=O,SHXBLYBYEGWNLH-UHFFFAOYSA-N,1.0,Intermediate,0.429,Yes,-0.132,0.999865055,0.997
+BBB-154,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COC(=O)Nc1nc2ccc(C(=O)N3CCN(c4ccccn4)CC3)cc2[nH]1,SINZZLKFRXIFDJ-UHFFFAOYSA-N,0.0,Novel,0.357,No,-0.76,0.373715311,0.648
+BBB-171,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC1=CN2C(CC(=O)N(C)C)=C(c3ccc(C)cc3)NC2C=C1,SMDREPBAQOJBMT-UHFFFAOYSA-N,1.0,Novel,0.383,Yes,0.322,0.948741674,0.919
+BBB-038,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN/C(=N\C[N+](=O)[O-])NCCSCc1coc(CN(C)C)c1,SPSZZJPXYUXGMJ-UHFFFAOYSA-N,0.0,Intermediate,0.439,No,-0.997,0.998749375,0.401
+BBB-127,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1c(O)cccc1C(=O)N[C@@H](CSc1ccccc1)[C@@H](O)CN1CC2CCCCC2C[C@H]1C(=O)CNC(C)(C)C,SQUWFAJYPSYGGK-AFNLEOOSSA-N,1.0,Intermediate,0.568,No,-0.712,0.000291526,0.58
+BBB-042,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)CC(=O)c1ccc(OCCCCO)cc1O,SWPPRGFQGVZSIN-UHFFFAOYSA-N,0.0,Novel,0.34,Yes,-0.173,0.365380406,0.299
+BBB-035,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN=C(C[N+](=O)[O-])NCCSCc1ccc(CN(C)C)o1,SYNOVMDJYWJCON-UHFFFAOYSA-N,0.0,Near,0.607,No,-0.846,0.228997931,0.768
+BBB-094,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C(=O)O)c1ccc(-c2ccccc2)c(F)c1,SYTBZMRGLBWNTM-UHFFFAOYSA-N,0.0,Near,1.0,Yes,0.29,0.041018054,0.693
+BBB-043,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCCCC,TVMXDCGIABBOFY-UHFFFAOYSA-N,1.0,Near,0.615,Yes,0.67,0.773205757,0.996
+BBB-093,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1cc2ccccc2n1CCNC(=O)/C=C/c1ccc(OCCO)c(OCCO)c1,TZRAKNUSEBSQQN-VQHVLOKHSA-N,0.0,Novel,0.244,No,-0.619,0.015667781,0.431
+BBB-179,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCS(=O)(=O)n1c2c(c3cc(C(=O)N4CCC(C)CC4)ccc31)CN(C1CCOCC1)CC2,UCMNIYFDRVBMFV-UHFFFAOYSA-N,0.0,Novel,0.223,No,-0.535,0.279812545,0.927
+BBB-058,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Clc1cccc(C(c2ccc3nc[nH]c3c2)n2ccnc2)c1,UGFHIPBXIWJXNA-UHFFFAOYSA-N,0.0,Intermediate,0.431,Yes,0.176,0.017044239,0.534
+BBB-005,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COCCOC(=O)C1=C(C)NC(C)=C(C(=O)OC(C)C)C1c1cccc([N+](=O)[O-])c1,UIAGMCDKSXEBJQ-UHFFFAOYSA-N,1.0,Near,1.0,No,-0.921,0.026669284,0.269
+BBB-133,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)NC1C(O)OC(COS(=O)(=O)O)C(OC2OC(COS(=O)(=O)O)C(O)C(O)C2O)C1O,UJOAXSJVYJPWAV-UHFFFAOYSA-N,0.0,Intermediate,0.423,No,-2.701,3.97e-05,0.292
+BBB-097,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)CCc1c[nH]c2ccc(CC3COC(=O)N3)cc12,ULSDMUVEXKOYBU-UHFFFAOYSA-N,0.0,Near,0.61,Yes,-0.012,0.964122474,0.959
+BBB-184,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COC1=C2O[C@H]3C(=O)C=C[C@H]4[C@H]5CC(C=C1)C2[C@@]34CCN5C,UUXKJWSSCUHNOY-XLJHGZGOSA-N,1.0,Novel,0.289,Yes,0.3,0.840145051,0.987
+BBB-068,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",c1ccc2c(c1)CCNC2,UWYZHKAOTLEWKK-UHFFFAOYSA-N,1.0,Novel,0.286,No,-0.06,0.994882226,0.99
+BBB-108,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(F)OC(=O)c1ncn2c1CN(C)C(=O)c1cc(F)ccc1-2,VBDHBHIFSRQXKE-UHFFFAOYSA-N,1.0,Near,0.737,Yes,-0.02,0.998934209,0.993
+BBB-062,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)(C)NCC(O)COc1ccccc1C#N,VCVQSRCYSKKPBA-UHFFFAOYSA-N,1.0,Intermediate,0.571,Yes,-0.091,0.289918751,0.713
+BBB-033,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C1NCC(c2ccccc2)C2(CCN(C(=O)c3cc(C(F)(F)F)cc(C(F)(F)F)c3)CC2)O1,VEZFZDPMCIZCLQ-UHFFFAOYSA-N,1.0,Novel,0.237,No,0.129,0.999992251,0.948
+BBB-025,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCNc1cccnc1N1CCN(C(=O)c2cc3cc(NS(C)(=O)=O)ccc3[nH]2)CC1,VLRUPVDWIXYKGR-UHFFFAOYSA-N,0.0,Near,0.791,No,-0.981,0.046491556,0.554
+BBB-003,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1ccc(NS(=O)(=O)c2ccc(N)cc2)nn1,VLYWMPOKSSWJAL-UHFFFAOYSA-N,1.0,Near,0.628,No,-0.747,0.044454455,0.652
+BBB-073,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCc1ccc(C(=O)C(C)CN2CCCC2)cc1,VNFAARJCGSAROU-UHFFFAOYSA-N,1.0,Near,0.971,Yes,0.606,0.993807375,0.961
+BBB-173,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCCNC(=O)C(c1ccccc1)c1ccccc1,VPQDKUZCSPOFPW-UHFFFAOYSA-N,1.0,Novel,0.309,Yes,0.571,0.000544924,0.897
+BBB-164,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3ccccc3nc2-1,VSJKWCGYPAHWDS-FQEVSTJZSA-N,1.0,Near,0.657,No,-0.214,0.490596354,0.669
+BBB-100,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1cc(N)cn[n+]1-c1ccccc1,VXROHTDSRBRJLN-UHFFFAOYSA-O,0.0,Novel,0.225,Yes,-0.125,0.854999423,0.976
+BBB-086,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1CC[C@]23c4c5ccc(OC6O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]6O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5,WAEXKFONHRHFBZ-QMGRMYLDSA-N,0.0,Near,0.672,No,-0.829,0.997288823,0.475
+BBB-001,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccc(N=C2N(C)CCN2C)c(C)c1,WAWZQNKLTPPAKU-UHFFFAOYSA-N,0.0,Novel,0.22,Yes,0.485,0.96255964,0.986
+BBB-067,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN=C(C[N+](=O)[O-])NCCCSc1ccc(CN(C)C)o1,WGOKVRMQUBJKRB-UHFFFAOYSA-N,0.0,Intermediate,0.415,No,-0.852,0.593006968,0.835
+BBB-129,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN(C)S(=O)(=O)c1ccc(-c2ccc3cc(O)ccc3c2Oc2ccc(OCCN3CCCCC3)cc2)cc1,WGUNFTKBYUCLEL-UHFFFAOYSA-N,1.0,Intermediate,0.442,No,-0.671,0.502741575,0.492
+BBB-124,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cc1ccccc1NC1=NCCN1,WLQWOUULTDRZTQ-UHFFFAOYSA-N,0.0,Intermediate,0.5,Yes,-0.091,0.996224403,0.923
+BBB-060,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1CC(=O)N2C(Cc3c([nH]c4ccccc34)C2c2ccc3c(c2)OCO3)C1=O,WOXKDUGGOYFFRN-UHFFFAOYSA-N,0.0,Near,1.0,No,-0.32,0.031484779,0.84
+BBB-158,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Oc1cc(-c2nc(-c3ccccc3)[nH]c2-c2ccncc2)ccc1Cl,WXJLXRNWMLWVFB-UHFFFAOYSA-N,0.0,Novel,0.268,Yes,0.049,0.805199385,0.131
+BBB-082,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Nc1ccn(C2CC(CO)C(CO)O2)c(=O)n1,WZGBNAXNHRMYLG-UHFFFAOYSA-N,1.0,Intermediate,0.436,No,-0.537,0.594905794,0.854
+BBB-048,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCOC(=O)N1CSCC1C(=O)O,XBJWOGLKABXFJE-UHFFFAOYSA-N,0.0,Novel,0.302,No,-0.278,0.0192407,0.928
+BBB-165,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Cn1nnc2ccc([C@H](c3ccc(Cl)cc3)n3cncn3)cc21,XLMPPFTZALNBFS-INIZCTEOSA-N,1.0,Intermediate,0.42,Yes,-0.013,0.61047858,0.643
+BBB-174,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C(c1ccc(C(=O)N2CCN(c3ccc(OC4CCN(C5CCC5)CC4)cc3)C(=O)C2)cc1)N1CCC1,XMKPWAJOBWNRGY-UHFFFAOYSA-N,0.0,Novel,0.232,Yes,-0.518,0.998748422,0.854
+BBB-013,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Nc1nc(=O)n([C@@H]2CS[C@H](CO)O2)cc1F,XQSPYNMVSIKCOC-NTSWFWBYSA-N,0.0,Near,0.6,No,-0.676,0.016356101,0.93
+BBB-175,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1CC(C(=O)NC2(C)OC3(O)C4CCCN4C(=O)C(Cc4ccccc4)N3C2=O)CC2C3=CC=CC4NC=CC(=C34)CC21,XTQJOPSMZPNESC-UHFFFAOYSA-N,0.0,Intermediate,0.496,No,-0.704,0.048040207,0.329
+BBB-010,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)(C)C1CCCCC1,XTVMZZBLCLWBPM-UHFFFAOYSA-N,1.0,Novel,0.25,Yes,0.497,0.461920947,0.997
+BBB-152,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O,XUKUURHRXDUEBC-KAYWLYCHSA-N,0.0,Near,0.648,No,-0.782,0.000493858,0.226
+BBB-002,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)CC(=O)c1ccc(OCCCCOc2ccc(CCC(=O)O)c(O)c2)cc1O,XVGHTMZUJMMFAT-UHFFFAOYSA-N,0.0,Novel,0.321,No,-0.768,5.77e-05,0.121
+BBB-072,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCCCCC1(CC)C(=O)NC(=O)NC1=O,XYGXSCVUMIDZRR-UHFFFAOYSA-N,1.0,Intermediate,0.429,No,-0.267,0.981874108,0.996
+BBB-071,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN[C@H]1C(=O)N[C@@H]2Cc3ccc(cc3)Oc3cc4cc(c3O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3NC(=O)CCCCCCCCC(C)C)Oc3ccc(cc3Cl)[C@@H](O)[C@@H]3NC(=O)[C@H](NC(=O)[C@@H]4NC(=O)[C@@H](NC2=O)c2cc(cc(O)c2Cl)Oc2cc1ccc2O)c1ccc(O)c(c1)-c1c(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]2O)cc(O)cc1[C@@H](C(=O)NCCCN(C)C)NC3=O,YBHCRKSNNGPNKG-QEQRGNDBSA-N,0.0,Novel,0.308,,-5.371,1.68e-06,0.031
+BBB-009,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CN1C(=O)C2N=CN=C2N(C)C1=O,YCEKCTUKFCMUPE-UHFFFAOYSA-N,1.0,Novel,0.238,No,-0.267,0.886371672,0.998
+BBB-021,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",N[C@H](Cc1ccccc1)C(=O)ON1CCC[C@H]1C(=O)O,YCFRSTNRXWBZEM-NEPJUHHUSA-N,1.0,Intermediate,0.442,No,-0.408,3.91e-06,0.725
+BBB-092,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCN(CC)CCNC(=O)c1ccc(N)c(Cl)c1,YEYAKZXEBSVURO-UHFFFAOYSA-N,1.0,Near,0.659,Yes,-0.058,0.002013586,0.977
+BBB-088,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CCOc1ccc(Cc2nc3cc(N(C)S(=O)(=O)c4cccs4)ccc3n2CC2CCCCC2)nc1,YIEVWZCZMDYKQH-UHFFFAOYSA-N,0.0,Novel,0.22,No,-0.875,0.002007987,0.855
+BBB-079,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(C)(C)c1ccccc1,YTZKOQUCBOVLHL-UHFFFAOYSA-N,1.0,Novel,0.375,Yes,0.551,0.049114775,0.992
+BBB-125,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",C=CCc1cccc(/C=N\NC(=O)CN2CCN(Cc3ccc(S(N)(=O)=O)cc3)CC2)c1O,YVADNIWEULZYRQ-MYYYXRDXSA-N,0.0,Novel,0.279,No,-1.034,1.26e-05,0.442
+BBB-103,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=C1c2c(O)cc(O)cc2CC(c2ccc(O)c(O)c2)C1O,ZKXUJOASIOXXRV-UHFFFAOYSA-N,0.0,Novel,0.345,No,-0.322,0.013532422,0.093
+BBB-030,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",N#Cc1c(COc2ccccn2)nc(N)nc1-c1ccco1,ZNBSUUWZDSXPBW-UHFFFAOYSA-N,1.0,Novel,0.207,No,-0.577,0.024065545,0.848
+BBB-138,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",Oc1ccc2c(Oc3ccc(OCCN4CCCCC4)cc3)c(-c3cccc(F)c3)ccc2c1,ZPECPOOQJUIDLY-UHFFFAOYSA-N,1.0,Intermediate,0.438,,0.247,0.253177911,0.792
+BBB-150,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",N#Cc1cccc(-c2ccc3cc(O)ccc3c2Oc2ccc(OCCN3CCCCC3)cc2)c1,ZPPXQVFYCAJAFB-UHFFFAOYSA-N,1.0,Intermediate,0.421,No,-0.005,0.016480939,0.558
+BBB-017,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",COc1nccc(-c2c(-c3ccc(F)cc3)ncn2C2CCC(O)CC2)n1,ZQUSFAUAYSEREK-UHFFFAOYSA-N,0.0,Novel,0.225,Yes,-0.475,0.426664203,0.83
+BBB-004,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",O=[N+]([O-])c1[nH]ccc1NCCSCc1ncccc1Br,ZQZZGJSMTGGRPZ-UHFFFAOYSA-N,1.0,Novel,0.242,No,-0.864,0.004197366,0.859
+BBB-027,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",N#CC(c1ccc(Cl)cc1)c1c(Cl)cc(-n2ncc(=O)[nH]c2=O)cc1Cl,ZSZFUDFOPOMEET-UHFFFAOYSA-N,0.0,Novel,0.234,No,-0.828,0.026893049,0.443
+BBB-044,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",OCc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2,ZURUZYHEEMDQBU-UHFFFAOYSA-N,0.0,Near,0.765,Yes,0.007,0.999999523,0.86
+BBB-045,BBB (logBB>-1),"B3DB regression (logBB>-1, BBBP-deduped)",CC(=O)O[C@H]1C(=O)[C@]2(C)[C@H]([C@@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@@H](O)[C@H](NC(=O)c4ccc(F)cc4)c4ccccc4)C(C)=C1C3(C)C)[C@]1(OC(C)=O)CO[C@@H]1C[C@@H]2O,ZWDPMBMJMPIWMJ-ZJFMJSQQSA-N,1.0,Near,0.745,No,-1.773,0.042306155,0.536
+DILI-001,DILI,DILIst Classification  Oral,CCCN(CCC)C(=O)Cc1c(-c2ccc(Cl)cc2)nc2ccc(Cl)cn12,JRTIDHTUMYMPRU-UHFFFAOYSA-N,1.0,Intermediate,0.566,,Yes,0.726801515,0.495
+DILI-002,DILI,DILIst Classification  ,Nc1ccc(S(=O)(=O)NC(=O)c2ccccc2)cc1,PBCZLFBEBARBBI-UHFFFAOYSA-N,0.0,Intermediate,0.439,,No,0.999913096,0.974
+DILI-003,DILI,DILIst Classification  ,CN1C(=O)CN=C(c2ccccc2F)c2cc([N+](=O)[O-])ccc21,PPTYJKAXVCCBDU-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.929904878,0.964
+DILI-004,DILI,DILIst Classification  ,C=CCO,XXROGKLTLUQVRX-UHFFFAOYSA-N,1.0,Novel,0.25,,No,0.134746224,0.031
+DILI-005,DILI,DILIst Classification  Oral,NC(O)=NO,VSNHCAURESNICA-UHFFFAOYSA-N,1.0,Novel,0.385,,No,0.838747501,0.123
+DILI-006,DILI,DILIst Classification  ,COc1cccc(CCc2ccccc2OCC(CN(C)C)OC(=O)CCC(=O)O)c1,FFYNAVGJSYHHFO-UHFFFAOYSA-N,1.0,Novel,0.338,,Yes,0.115174547,0.312
+DILI-007,DILI,DILIst Classification  Oral,CCCCc1c(O)n(-c2ccccc2)n(-c2ccccc2)c1=O,PKYKNPLSFOKASK-UHFFFAOYSA-N,1.0,Novel,0.395,,Yes,0.521226525,0.859
+DILI-008,DILI,DILIst Classification  Oral,CCCCN1CC(O)C(O)C(O)C1CO,UQRORFVVSGFNRO-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.044968039,0.004
+DILI-009,DILI,DILIst Classification  Oral,CCCC1(CCc2ccccc2)CC(=O)C(C(CC)c2cccc(NS(=O)(=O)c3ccc(C(F)(F)F)cn3)c2)C(=O)O1,MYXACKZCYFKMTE-UHFFFAOYSA-N,1.0,Near,0.701,,Yes,0.885513008,0.915
+DILI-010,DILI,DILIst Classification  ,C[N+](C)(C)CCO[P-](=O)(=O)OP([O])(=O)OCC1OC(n2ccc(=N)[nH]c2=O)C(O)C1O,CEPKWQUAIFHKPX-UHFFFAOYSA-N,0.0,Novel,0.305,,Yes,0.973600268,0.105
+DILI-011,DILI,DILIst Classification  Intravenous,CCC(C)C1NC(=O)C(Cc2ccc(O)cc2)NC(=O)C(N)CSSCC(C(=O)N2CCCC2C(=O)NC(CC(C)C)C(=O)NCC(N)=O)NC(=O)C(CC(N)=O)NC(=O)C(CCC(N)=O)NC1=O,XNOPRXBHLZRZKH-UHFFFAOYSA-N,0.0,Novel,0.263,,Yes,0.569912016,0.341
+DILI-012,DILI,DILIst Classification  Oral,CCc1c(C)[nH]c2c1C(=O)C(CN1CCOCC1)CC2,KLPWJLBORRMFGK-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.078350477,0.132
+DILI-013,DILI,DILIst Classification  Oral,CNC1CCc2[nH]c3ccc(C(N)=O)cc3c2C1,XPSQPHWEGNHMSK-UHFFFAOYSA-N,0.0,Near,0.729,,No,0.37820214,0.469
+DILI-014,DILI,DILIrank dataset CP Overlap REpsilber,C=C1C(=CC=C2CCCC3(C)C2CCC3C(C)CCCC(C)(C)O)CC(O)CC1O,GMRQFYUYWCNGIN-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.018147681,0.144
+DILI-015,DILI,DILIst Classification  Oral,CC12C=CC(=O)NC1CCC1C2CCC2(C)C(C(=O)Nc3cc(C(F)(F)F)ccc3C(F)(F)F)CCC12,JWJOTENAMICLJG-UHFFFAOYSA-N,0.0,Intermediate,0.471,,No,0.244676962,0.449
+DILI-016,DILI,DILIst Classification  Oral,CC(C[N+](C)(C)C)OC(N)=O,NZUPCNDJBJXXRF-UHFFFAOYSA-O,0.0,Near,0.654,,No,0.018582646,0.002
+DILI-017,DILI,DILIst Classification  Oral,O=C(c1cc(O)c(O)c(O)c1)c1ccc(O)c(O)c1O,XEDWWPGWIXPVRQ-UHFFFAOYSA-N,1.0,Novel,0.357,,No,0.792895913,0.821
+DILI-018,DILI,DILIst Classification  Oral,COc1c(CC=C(C)CCC(=O)OCCN2CCOCC2)c(O)c2c(O)occ2c1C,PGPPCCZSDRAQKA-UHFFFAOYSA-N,1.0,Near,0.658,,Yes,0.784992218,0.517
+DILI-019,DILI,DILIst Classification  Oral,Cn1cc[nH]c1=S,PMRYVIKBURPHAH-UHFFFAOYSA-N,1.0,Novel,0.25,,No,0.999534607,0.51
+DILI-020,DILI,DILIst Classification  ,Oc1c2c(c(O)n1CCCCN1CCN(c3ncccn3)CC1)C1CCC2C1,XCISMQWGDMQWLH-UHFFFAOYSA-N,1.0,Intermediate,0.429,,Yes,0.388139904,0.46
+DILI-021,DILI,DILIst Classification  Intravenous,CCC(C)CC(C)CCCCCCCCC(=O)NC1CC(O)C(NCCN)NC(=O)C2C(O)CCN2C(=O)C(C(O)CCN)NC(=O)C(C(O)C(O)c2ccc(O)cc2)NC(=O)C2CC(O)CN2C(=O)C(C(C)O)NC1=O,JYIKNQVWKBUSNH-UHFFFAOYSA-N,0.0,Intermediate,0.531,,Yes,0.036582842,0.377
+DILI-022,DILI,DILIst Classification  Intravenous,CCC1=NC(=O)C2CSSCCC=CC(CC(=O)NC(C(C)C)C(=O)N2)OC(=O)C(C(C)C)NC1=O,SOOPLNPQGWJZHY-UHFFFAOYSA-N,0.0,Novel,0.157,,Yes,0.954007745,0.782
+DILI-023,DILI,DILIst Classification  ,CC(C(=O)O)c1ccc(CC2CCCC2=O)cc1,YMBXTVYHTMGZDW-UHFFFAOYSA-N,1.0,Intermediate,0.488,,No,0.937861741,0.42
+DILI-024,DILI,DILIst Classification  Oral,Oc1c(C2=CCC(c3ccc(Cl)cc3)CC2)c(O)c2ccccc2c1O,JAUORDHNHDCTAS-UHFFFAOYSA-N,0.0,Novel,0.358,,No,0.242602795,0.746
+DILI-025,DILI,DILIst Classification  Oral,NC(=O)N1c2ccccc2C=Cc2ccccc21,FFGPTBGBLSHEPO-UHFFFAOYSA-N,1.0,Intermediate,0.552,,No,0.878342271,0.905
+DILI-026,DILI,DILIst Classification  Oral,COc1ccc2c(C(=O)c3ccc(Cl)cc3)c(C)n(CC(=O)O)c2c1,DGMZLCLHHVYDIS-UHFFFAOYSA-N,1.0,Intermediate,0.517,,Yes,0.98846674,0.971
+DILI-027,DILI,DILIst Classification  ,N=C(N)Nc1ccc(C(=O)Oc2ccc3cc(C(=N)N)ccc3c2)cc1,MQQNFDZXWVTQEH-UHFFFAOYSA-N,1.0,Novel,0.326,,No,0.595517755,0.904
+DILI-028,DILI,DILIst Classification  Intravenous,CC1(C)C(=CC=CC=CC=CC2=[N+](CCCCS(=O)(=O)O)c3ccc4ccccc4c3C2(C)C)N(CCCCS(=O)(=O)O)c2ccc3ccccc3c21,BDBMLMBYCXNVMC-UHFFFAOYSA-O,0.0,Novel,0.211,,No,0.966169357,0.704
+DILI-029,DILI,DILIst Classification  Oral,N=C(N)NC(=O)c1nc(Cl)c(=N)[nH]c1N,XSDQTOBWRPYKKA-UHFFFAOYSA-N,1.0,Novel,0.298,,No,0.637236476,0.946
+DILI-030,DILI,DILIst Classification  Intravenous,CSCCC(NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)CCNC(=O)OC(C)(C)C)C(=O)NC(CC(=O)O)C(=O)NC(Cc1ccccc1)C(N)=O,NEYNJQRKHLUJRU-UHFFFAOYSA-N,0.0,Novel,0.385,,Yes,0.946812987,0.779
+DILI-031,DILI,DILIst Classification  Oral,CC=CCC(C)C(O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1C,PMATZTZNYRCHOR-UHFFFAOYSA-N,1.0,Intermediate,0.57,,Yes,0.218412384,0.765
+DILI-032,DILI,DILIst Classification  ,O=c1c(Cc2c(O)oc3ccccc3c2=O)c(O)oc2ccccc12,KSKRYQVHJQRUNC-UHFFFAOYSA-N,1.0,Intermediate,0.588,,Yes,0.892286479,0.966
+DILI-033,DILI,DILIst Classification  Oral,O=C(O)Cc1csc(-c2ccc(Cl)cc2)n1,APBSKHYXXKHJFK-UHFFFAOYSA-N,1.0,Novel,0.311,,Yes,0.9961133,0.984
+DILI-034,DILI,DILIrank dataset CP Overlap REpsilber,Cc1nccn1CC1CCC2C(C1=O)c1ccccc1N2C,JIMWRSFMRULTNX-UHFFFAOYSA-N,1.0,Intermediate,0.453,,Yes,0.815591633,0.158
+DILI-035,DILI,DILIst Classification  ,Cc1c(N(C)CS(=O)(=O)O)c(=O)n(-c2ccccc2)n1C,LVWZTYCIRDMTEY-UHFFFAOYSA-N,1.0,Near,0.634,,Yes,0.899923563,0.856
+DILI-036,DILI,DILIst Classification  Oral,CC1=C(C(=O)O)N2C(=O)C(=NC(=O)C(N)C3C=CCCC3)C2SC1,AHUXISVXKYLQOD-UHFFFAOYSA-N,0.0,Novel,0.37,,Yes,0.986703634,0.878
+DILI-037,DILI,DILIst Classification  Oral,COc1ccc2c3c1OC1CC(O)C=C(CCN(C)C2)C31,FFQKTDKDUHFQKE-UHFFFAOYSA-N,0.0,Intermediate,0.439,,Yes,0.176569372,0.061
+DILI-038,DILI,DILIst Classification  oral,CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)O,HNSDLXPSAYFUHK-UHFFFAOYSA-N,0.0,Novel,0.279,,No,0.018696394,0.326
+DILI-039,DILI,DILIst Classification  Oral,CC(=O)SC1C=C2CC(=O)CCC2(C)C2CCC3(C)C(CCC34CCC(=O)O4)C12,RRQQBPFUONLKTL-UHFFFAOYSA-N,1.0,Near,0.635,,No,0.923857331,0.436
+DILI-040,DILI,DILIst Classification  ,CC(=O)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C,HUCXKZBETONXFO-UHFFFAOYSA-N,1.0,Novel,0.312,,No,0.032922532,0.098
+DILI-041,DILI,DILIst Classification  ,CCOC(=O)N=c1c[n+](N2CCOCC2)[n-]o1,XLFWDASMENKTKL-UHFFFAOYSA-N,1.0,Novel,0.289,,Yes,0.991152704,0.798
+DILI-042,DILI,DILIst Classification  ,COC(=O)C1=C(C)N=C(C)C(C(=O)OC(C)(C)CN(C)CCC(c2ccccc2)c2ccccc2)C1c1cccc([N+](=O)[O-])c1,PHOGQKDIVUJGMJ-UHFFFAOYSA-N,1.0,Near,0.692,,Yes,0.831112981,0.717
+DILI-043,DILI,DILIst Classification  Oral,Cc1nc(=Nc2ncc(C(=O)Nc3c(C)cccc3Cl)s2)cc(N2CCN(CCO)CC2)[nH]1,ZBNZXTGUTAYRHI-UHFFFAOYSA-N,1.0,Intermediate,0.43,,Yes,0.999653459,0.868
+DILI-044,DILI,DILIst Classification  ,CC(=O)C(NC(=O)C1CSSCC(NC(=O)C(N)Cc2ccc3ccccc3c2)C(=O)NC(Cc2ccc(O)cc2)C(=O)NC(Cc2c[nH]c3ccccc23)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)N1)C(N)O,HFBLFEOAXLEEAV-UHFFFAOYSA-N,1.0,Novel,0.356,,Yes,0.130066812,0.805
+DILI-045,DILI,DILIst Classification  Intravenous,O=C(NC(CO)C(O)c1ccc([N+](=O)[O-])cc1)C(Cl)Cl,WIIZWVCIJKGZOK-UHFFFAOYSA-N,0.0,Intermediate,0.553,,No,0.083738409,0.417
+DILI-046,DILI,DILIst Classification  Oral,COC=C1CSC2C(=NC(=O)C(NOC)c3csc(=N)[nH]3)C(=O)N2C1C(=O)O,YKXSLXBECXAHNM-UHFFFAOYSA-N,0.0,Novel,0.293,,Yes,0.999362409,0.942
+DILI-047,DILI,DILIst Classification  Oral,C=CCC1(C(C)CCC)C(=O)NC(=O)NC1=O,KQPKPCNLIDLUMF-UHFFFAOYSA-N,0.0,Intermediate,0.575,,No,0.952744424,0.756
+DILI-048,DILI,DILIst Classification  Oral,COC(=O)C1=C(C)N=C(C)C(C(=O)OCC(C)C)C1c1ccccc1[N+](=O)[O-],PKICUDXEAPMDNG-UHFFFAOYSA-N,0.0,Intermediate,0.597,,Yes,0.981204987,0.841
+DILI-049,DILI,DILIst Classification  Oral,NCC(CC(=O)O)c1ccc(Cl)cc1,KPYSYYIEGFHWSV-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.54043299,0.26
+DILI-050,DILI,DILIst Classification  Oral,CCCCNc1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1,MAEIEVLCKWDQJH-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.998363554,0.956
+DILI-051,DILI,DILIst Classification  Oral,C=Cc1ccc(S(=O)(=O)O)cc1,MAGFQRLKWCCTQJ-UHFFFAOYSA-N,0.0,Novel,0.276,,No,0.111305863,0.931
+DILI-052,DILI,DILIst Classification  Intravenous,OCC(O)C(O)C(O)C(O)CO,FBPFZTCFMRRESA-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.002028973,0.01
+DILI-053,DILI,DILIst Classification  Oral,CC(C)c1nc(CN(C)C(=O)NC(C(=O)NC(Cc2ccccc2)CC(O)C(Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1,NCDNCNXCDXHOMX-UHFFFAOYSA-N,1.0,Intermediate,0.51,,Yes,0.995410264,0.895
+DILI-054,DILI,DILIst Classification  Intravenous,CC(=NO)C(C)NCC(C)(C)CNC(C)C(C)=NO,BPNZYADGDZPRTK-UHFFFAOYSA-N,0.0,Novel,0.231,,No,0.507614076,0.003
+DILI-055,DILI,DILIst Classification  Oral,CCc1[nH]c(=N)[nH]c(=N)c1-c1ccc(Cl)cc1,WKSAUQYGYAYLPV-UHFFFAOYSA-N,1.0,Intermediate,0.455,,No,0.5651806,0.821
+DILI-056,DILI,DILIst Classification  Oral,Cn1c(=O)c2[nH]cnc2n(C)c1=O,ZFXYFBGIUFBOJW-UHFFFAOYSA-N,0.0,Intermediate,0.529,,Yes,0.902564704,0.918
+DILI-057,DILI,DILIst Classification  ,CCOC(=O)c1ccc(OC(=O)CCCCCN=C(N)N)cc1,YKGYIDJEEQRWQH-UHFFFAOYSA-N,1.0,Intermediate,0.444,,Yes,0.329420328,0.115
+DILI-058,DILI,DILIst Classification  ,O=C(O)c1ccccc1O,YGSDEFSMJLZEOE-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.338731319,0.547
+DILI-059,DILI,DILIst Classification  Oral,O=C1Nc2ccc(Cl)cc2C(c2ccccc2)NC1=O,ZPRNOXLABKLWNP-UHFFFAOYSA-N,0.0,Novel,0.298,,No,0.951057076,0.961
+DILI-060,DILI,DILIst Classification  ,COC(=O)N=c1[nH]c2ccc(C(=O)c3cccs3)cc2[nH]1,KYRVNWMVYQXFEU-UHFFFAOYSA-N,0.0,Novel,0.396,,Yes,0.997884929,0.977
+DILI-061,DILI,DILIst Classification  Oral,O=C(O)CCCO,SJZRECIVHVDYJC-UHFFFAOYSA-N,0.0,Near,0.625,,No,0.12192753,0.106
+DILI-062,DILI,DILIst Classification  Oral,N=c1[nH]c(=O)[nH]cc1F,XRECTZIEBJDKEO-UHFFFAOYSA-N,0.0,Novel,0.344,,No,0.823242843,0.922
+DILI-063,DILI,DILIst Classification  Oral,O=[N+]([O-])OCC(CO[N+](=O)[O-])O[N+](=O)[O-],SNIOPGDIGTZGOP-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.999023914,0.663
+DILI-064,DILI,DILIst Classification  Oral,CC(=O)Oc1ccc(C(c2ccc(OC(C)=O)cc2)c2ccccn2)cc1,KHOITXIGCFIULA-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.069705538,0.762
+DILI-065,DILI,DILIst Classification  Intravenous,CNC(=O)c1cnn(-c2nc(=N)c3ncn(C4OC(CO)C(O)C4O)c3[nH]2)c1,LZPZPHGJDAGEJZ-UHFFFAOYSA-N,0.0,Intermediate,0.507,,No,0.982747734,0.977
+DILI-066,DILI,DILIst Classification  Oral,O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)NC1=O,QVUVOEFASMHBFO-UHFFFAOYSA-N,0.0,Novel,0.283,,No,0.958626628,0.964
+DILI-067,DILI,DILIst Classification  Oral,CNC(C)Cc1ccccc1,MYWUZJCMWCOHBA-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.000129383,0.009
+DILI-068,DILI,DILIst Classification  Oral,CC(C=Cc1c(C)c(O)c2ccccc2c1O)=CCCC(C)CCCC(C)CCCC(C)C,LLVIVPAPYJXADK-UHFFFAOYSA-N,0.0,Novel,0.365,,No,0.009100814,0.341
+DILI-069,DILI,DILIst Classification  Oral; Respiratory (inhalation),CC(=O)Nc1c(C(O)C(O)CO)oc(C(O)O)cc1=NC(N)N,QAJJNWFGGAXZNK-UHFFFAOYSA-N,0.0,Novel,0.268,,Yes,0.003480653,0.117
+DILI-070,DILI,DILIst Classification  ,CC#CCC(C)C(O)C=CC1C(O)CC2CC(=CCCCC(=O)O)CC21,HIFJCPQKFCZDDL-UHFFFAOYSA-N,1.0,Near,0.722,,No,0.041007973,0.071
+DILI-071,DILI,DILIst Classification  Oral,Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1,LNPDTQAFDNKSHK-UHFFFAOYSA-N,1.0,Novel,0.333,,Yes,0.99998188,0.962
+DILI-072,DILI,DILIst Classification  Oral,C=CCC1(CC(C)C)C(=O)NC(=O)NC1=O,UZVHFVZFNXBMQJ-UHFFFAOYSA-N,0.0,Intermediate,0.541,,Yes,0.912461579,0.73
+DILI-073,DILI,DILIst Classification  Oral,CC[N+](CC)(CCNC(=O)C(=O)NCC[N+](CC)(CC)Cc1ccccc1Cl)Cc1ccccc1Cl,OMHBPUNFVFNHJK-UHFFFAOYSA-P,0.0,Intermediate,0.558,,No,5.51e-07,0.031
+DILI-074,DILI,DILIst Classification  Oral,CCc1cccc2c3c([nH]c12)C(CC)(CC(=O)O)OCC3,NNYBQONXHNTVIJ-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.920388937,0.673
+DILI-075,DILI,DILIst Classification  Intravenous,CCC1(O)CC2CN(CCc3c([nH]c4ccccc34)C(C(=O)OC)(c3cc4c(cc3OC)N(C)C3C(O)(C(=O)OC)C(OC(C)=O)C5(CC)C=CCN6CCC43C65)C2)C1,JXLYSJRDGCGARV-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.109656982,0.588
+DILI-076,DILI,DILIst Classification  Oral,COCCCOc1cc(CC(CC(N)C(O)CC(C(=O)NCC(C)(C)C(N)=O)C(C)C)C(C)C)ccc1OC,UXOWGYHJODZGMF-UHFFFAOYSA-N,1.0,Novel,0.287,,Yes,0.107845433,0.05
+DILI-077,DILI,DILIst Classification  ,COCC(=O)OC1(CCN(C)CCCc2nc3ccccc3[nH]2)CCc2cc(F)ccc2C1C(C)C,HBNPJJILLOYFJU-UHFFFAOYSA-N,0.0,Novel,0.232,,Yes,0.048306085,0.149
+DILI-078,DILI,DILIst Classification  ,C1COC(=NC(C2CC2)C2CC2)N1,CQXADFVORZEARL-UHFFFAOYSA-N,1.0,Novel,0.167,,No,0.622084677,0.128
+DILI-079,DILI,DILIst Classification  Oral,CC(C)(C)NCC(O)COc1ccccc1C1CCCC1,KQXKVJAGOJTNJS-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.00329139,0.012
+DILI-080,DILI,DILIst Classification  Oral,CC(=O)Oc1ccc(C(=C2CCCCC2)c2ccc(OC(C)=O)cc2)cc1,GVOUFPWUYJWQSK-UHFFFAOYSA-N,1.0,Novel,0.348,,No,0.806649685,0.765
+DILI-081,DILI,DILIst Classification  Oral,CC(C)(C)C(=O)OCOC(=O)C1N2C(=O)C(N=CN3CCCCCC3)C2SC1(C)C,NPGNOVNWUSPMDP-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.477252722,0.602
+DILI-082,DILI,DILIst Classification  ,NC(=O)CN1CCCC1=O,GMZVRMREEHBGGF-UHFFFAOYSA-N,1.0,Novel,0.325,,Yes,0.282855779,0.102
+DILI-083,DILI,DILIst Classification  ,CC1=NC(=N)C(C(=O)OC2CN(C(c3ccccc3)c3ccccc3)C2)C(c2cccc([N+](=O)[O-])c2)C1C(=O)OC(C)C,VWQKBXQRFVPFAL-UHFFFAOYSA-N,1.0,Novel,0.39,,Yes,0.855342746,0.838
+DILI-084,DILI,DILIst Classification  Oral,NCC1OC(OC2C(CO)OC(OC3C(O)C(N)CC(N)C3OC3OC(CN)C(O)C(O)C3N)C2O)C(N)C(O)C1O,PGBHMTALBVVCIT-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.008206327,0.067
+DILI-085,DILI,DILIrank dataset CP Overlap REpsilber,CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(=O)O,GBXSMTUPTTWBMN-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.957417846,0.52
+DILI-086,DILI,DILIst Classification  ,O=c1[nH]cc(N(CCCl)CCCl)c(=O)[nH]1,IDPUKCWIGUEADI-UHFFFAOYSA-N,1.0,Novel,0.317,,No,0.968482852,0.855
+DILI-087,DILI,DILIst Classification  Intravenous,CNC(=O)c1c(I)c(NC(C)=O)c(I)c(C(=O)O)c1I,UXIGWFXRQKWHHA-UHFFFAOYSA-N,0.0,Novel,0.368,,No,0.001038443,0.721
+DILI-088,DILI,DILIst Classification  ,COC(C(=O)C(O)C(C)O)C1Cc2cc3cc(OC4CC(OC5CC(O)C(O)C(C)O5)C(O)C(C)O4)c(C)c(O)c3c(O)c2C(=O)C1OC1CC(OC2CC(OC3CC(C)(O)C(O)C(C)O3)C(O)C(C)O2)C(O)C(C)O1,CFCUWKMKBJTWLW-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.904271483,0.812
+DILI-089,DILI,DILIst Classification  Oral,CCN(CC)CCN1C(=O)CN=C(c2ccccc2F)c2cc(Cl)ccc21,SAADBVWGJQAEFS-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.135613129,0.42
+DILI-090,DILI,DILIst Classification  Oral,NCCc1ccc(O)cc1,DZGWFCGJZKJUFP-UHFFFAOYSA-N,0.0,Intermediate,0.56,,No,0.015027482,0.013
+DILI-091,DILI,DILIst Classification  Oral,CCCC(CCC)C(=O)O,NIJJYAXOARWZEE-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.59620738,0.375
+DILI-092,DILI,DILIst Classification  Oral,CNC1(C)C2CCC(C2)C1(C)C,IMYZQPCYWPFTAG-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.007961407,0.005
+DILI-093,DILI,"DILIst Classification  Topical,Respiratory (inhalation)",CC1CC2C3CC=C4CC(=O)C=CC4(C)C3(Cl)C(O)CC2(C)C1(O)C(=O)CO,CVZOZPYAZUVIDT-UHFFFAOYSA-N,0.0,Intermediate,0.58,,No,0.021370828,0.116
+DILI-094,DILI,DILIst Classification  ,OCCO,LYCAIKOWRPUZTN-UHFFFAOYSA-N,1.0,Novel,0.375,,No,0.054676734,0.048
+DILI-095,DILI,DILIst Classification  Intravenous,NC(=O)C1CCCN1C(=O)C(Cc1c[nH]cn1)NC(O)c1ccc(O)[nH]1,QYHFILLIFQOIIA-UHFFFAOYSA-N,0.0,Novel,0.333,,Yes,0.399891585,0.23
+DILI-096,DILI,DILIst Classification  Oral,CN1c2c(oc(=O)n(-c3ccccn3)c2=O)-c2ccccc2S1(=O)=O,OEHFRZLKGRKFAS-UHFFFAOYSA-N,1.0,Novel,0.387,,Yes,0.998821795,0.993
+DILI-097,DILI,DILIrank dataset CP Overlap REpsilber,COc1cc2c(cc1OC)C1CC(=O)C(CC(C)C)CN1CC2,MKJIEFSOBYUXJB-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.02618642,0.148
+DILI-098,DILI,DILIst Classification  Intravenous,CC(=O)C1NC(=O)C(CCCCN)NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(Cc2ccccc2)NC(=O)C(NC(=O)C(N)Cc2ccccc2)CSSCC(C(=O)NC(CO)C(C)O)NC1O,JDKKNQACNITFEA-UHFFFAOYSA-N,1.0,Intermediate,0.405,,Yes,0.030276215,0.764
+DILI-099,DILI,DILIst Classification  Intravenous,N=c1ncn(C2CC(O)C(CO)O2)c(=O)[nH]1,XAUDJQYHKZQPEU-UHFFFAOYSA-N,0.0,Intermediate,0.592,,Yes,0.791613936,0.9
+DILI-100,DILI,DILIst Classification  Oral,CN(C)C(N)=NC(=N)N,XZWYZXLIPXDOLR-UHFFFAOYSA-N,1.0,Novel,0.36,,No,0.123824842,0.038
+DILI-101,DILI,DILIst Classification  Intravenous,CC(C)(ON=C(C(=O)NC1C(=O)N2C(C(=O)O)=C(C[n+]3ccccc3)CSC12)c1csc(=N)[nH]1)C(=O)[O-],ORFOPKXBNMVMKC-UHFFFAOYSA-N,1.0,Near,0.778,,Yes,0.982656598,0.764
+DILI-102,DILI,"DILIst Classification  Oral, Vaginal",OC1C(O)C(O)C(O)C(O)C1O,CDAISMWEOUEBRE-UHFFFAOYSA-N,0.0,Novel,0.182,,Yes,0.016752847,0.036
+DILI-103,DILI,DILIst Classification  Intravenous,O=C(NCC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(N(CCO)C(=O)CO)c1I,AMDBBAQNWSUWGN-UHFFFAOYSA-N,0.0,Novel,0.368,,Yes,4.12e-08,0.171
+DILI-104,DILI,DILIst Classification  ,O=c1[nH]c2ccccc2n1CCCN1CCN(C(c2ccccc2)c2ccccc2)CC1,BAINIUMDFURPJM-UHFFFAOYSA-N,1.0,Intermediate,0.424,,No,0.018849438,0.16
+DILI-105,DILI,DILIst Classification  Oral,OCC1OC(OC2C(CO)OC(O)C(O)C2O)C(O)C(O)C1O,GUBGYTABKSRVRQ-UHFFFAOYSA-N,0.0,Intermediate,0.55,,No,0.444908261,0.201
+DILI-106,DILI,"DILIst Classification  Oral, Topical, Intravenous, optahlmic",CC(=O)OC1=C(C(CCC=C(C)C)C(=O)O)C2CC(O)C3C4(C)CCC(O)C(C)C4CCC3(C)C2(C)C1,JMNCPTSDROGKTR-UHFFFAOYSA-N,1.0,Intermediate,0.544,,Yes,0.344910026,0.359
+DILI-107,DILI,DILIst Classification  Oral,NCC1OC(OC2C(CO)OC(OC3C(O)C(N)CC(N)C3OC3OC(CO)C(O)C(O)C3N)C2O)C(N)C(O)C1O,UOZODPSAJZTQNH-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.023513936,0.08
+DILI-108,DILI,DILIst Classification  ,CC(C)(S)C(=O)NC(CS)C(=O)O,VUAFHZCUKUDDBC-UHFFFAOYSA-N,1.0,Novel,0.344,,No,0.983179688,0.604
+DILI-109,DILI,DILIst Classification  Oral,CC(CCc1ccccc1)NCC(O)c1ccc(O)c(C(N)=O)c1,SGUAFYQXFOLMHL-UHFFFAOYSA-N,1.0,Near,0.76,,Yes,0.004734214,0.037
+DILI-110,DILI,DILIst Classification  Oral,O=C(OC1CC2CC3CC(C1)N2CC3=O)c1c[nH]c2ccccc12,UKTAZPQNNNJVKR-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.070466451,0.368
+DILI-111,DILI,DILIst Classification  ,C[N+]12CCCCC1CCC(=C(c1cccs1)c1cccs1)C2,ZGSDGGRVFIYKKE-UHFFFAOYSA-N,1.0,Novel,0.246,,Yes,0.257444233,0.072
+DILI-112,DILI,DILIst Classification  ,CNC(=O)c1ccccc1Sc1ccc2c(C=Cc3ccccn3)[nH]nc2c1,RITAVMQDGBJQJZ-UHFFFAOYSA-N,1.0,Novel,0.203,,Yes,0.995717108,0.916
+DILI-113,DILI,DILIst Classification  ,CCOc1ccc(NC(C)=O)cc1,CPJSUEIXXCENMM-UHFFFAOYSA-N,1.0,Novel,0.321,,No,0.922209442,0.613
+DILI-114,DILI,DILIst Classification  Oral,c1cnc2cc3c(cc2n1)C1CNCC3C1,JQSHBVHOMNKWFT-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.268232077,0.481
+DILI-115,DILI,DILIrank dataset CP Overlap REpsilber,Cc1cn(C2CC(N=[N+]=[N-])C(CO)O2)c(=O)[nH]c1=O,HBOMLICNUCNMMY-UHFFFAOYSA-N,1.0,Near,0.661,,Yes,0.99993825,0.761
+DILI-116,DILI,DILIst Classification  Intravenous,CC(=O)C(O)O,UOQFZGVGGMHGEE-UHFFFAOYSA-N,0.0,Novel,0.385,,No,0.090706013,0.105
+DILI-117,DILI,DILIst Classification  ,O=C(C[S+]([O-])Cc1ccco1)NCC=CCOc1cc(CN2CCCCC2)ccn1,KMZQAVXSMUKBPD-UHFFFAOYSA-N,1.0,Novel,0.291,,Yes,0.736881375,0.131
+DILI-118,DILI,DILIst Classification  ,C=C1c2cccc(O)c2C(=O)C2C(=O)C3(O)C(=O)C(C(N)=O)C(=O)C(N(C)C)C3C(O)C12,QNJKSUYWBCNWFI-UHFFFAOYSA-N,1.0,Intermediate,0.556,,No,0.957429528,0.729
+DILI-119,DILI,DILIst Classification  ,CCCCC1(CC)C(=O)NC(=O)NC1=O,STDBAQMTJLUMFW-UHFFFAOYSA-N,0.0,Intermediate,0.485,,No,0.892218769,0.81
+DILI-120,DILI,DILIst Classification  ,CC1NCc2cc(-c3ccc4c(=O)c(C(=O)O)cn(C5CC5)c4c3OC(F)F)ccc21,NJDRXTDGYFKORP-UHFFFAOYSA-N,1.0,Intermediate,0.422,,Yes,0.983759642,0.923
+DILI-121,DILI,DILIst Classification  ,O=C(O)c1ccc[nH]c1=Nc1cccc(C(F)(F)F)c1,JZFPYUNJRRFVQU-UHFFFAOYSA-N,1.0,Intermediate,0.407,,No,0.971991777,0.895
+DILI-122,DILI,DILIst Classification  Oral,CNS(=O)(=O)CCc1ccc2[nH]cc(C3CCN(C)CC3)c2c1,AMKVXSZCKVJAGH-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.964301467,0.236
+DILI-123,DILI,DILIst Classification  ,COc1c(OC2OC(CO)C(O)C(O)C2O)cc2c(c1OC)-c1ccc(SC)c(=O)cc1C(NC(C)=O)CC2,LEQAKWQJCITZNK-UHFFFAOYSA-N,1.0,Intermediate,0.41,,No,0.926404536,0.863
+DILI-124,DILI,DILIst Classification  ,O=C1C=NC(c2ccccc2)c2cc([N+](=O)[O-])ccc2N1,UGGMVORTUXFWLM-UHFFFAOYSA-N,1.0,Novel,0.29,,No,0.99454087,0.942
+DILI-125,DILI,DILIst Classification  ,COc1cc2c(c3oc(=O)c4c(c13)CCC4=O)C1C=COC1O2,OQIQSTLJSLGHID-UHFFFAOYSA-N,1.0,Novel,0.247,,No,0.987650216,0.979
+DILI-126,DILI,DILIst Classification  Oral,COc1cc2[nH]c(N(C)CCCNC(=O)C3CCCO3)nc(=N)c2cc1OC,WNMJYKCGWZFFKR-UHFFFAOYSA-N,1.0,Intermediate,0.532,,Yes,0.807466745,0.846
+DILI-127,DILI,DILIst Classification  Intramuscular,CC(C)CC(NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1ccc(O)cc1)NC(=O)C(CO)NC(=O)C(Cc1c[nH]c2ccccc12)NC(=O)C(Cc1cnc[nH]1)NC(=O)C1CCC(=O)N1)C(=O)NC(CCCNC(=N)N)C(=O)N1CCCC1C(=O)NCC(N)=O,VXKHXGOKWPXYNA-UHFFFAOYSA-N,1.0,Intermediate,0.507,,Yes,0.964016318,0.328
+DILI-128,DILI,DILIst Classification  Intravenous,CN(C)c1cc(NC(=O)CNC(C)(C)C)c(O)c2c(O)c3c(cc12)CC1C(N(C)C)C(=O)C(C(N)=O)C(=O)C1(O)C3O,HFGTWXXQCHUAMV-UHFFFAOYSA-N,0.0,Novel,0.291,,No,0.451435059,0.535
+DILI-129,DILI,DILIst Classification  Oral,CCC(CO)NC(=O)C1=CC2c3cccc4c3c(cn4C)CC2N(C)C1,ZROSHIYBPNXMJG-UHFFFAOYSA-N,0.0,Novel,0.397,,Yes,0.32109502,0.301
+DILI-130,DILI,DILIst Classification  ,C#CCN(C)Cc1ccccc1,DPWPWRLQFGFJFI-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.026366826,0.01
+DILI-131,DILI,DILIst Classification  Intravenous,CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(=O)O)c1I,YVPYQUNUQOZFHG-UHFFFAOYSA-N,0.0,Intermediate,0.438,,No,0.013846435,0.614
+DILI-132,DILI,DILIst Classification  ,O=C1C=NC(c2ccccn2)c2cc(Br)ccc2N1,BAEURYYFMFQDTK-UHFFFAOYSA-N,1.0,Novel,0.295,,No,0.923383772,0.917
+DILI-133,DILI,DILIst Classification  ,COC1(NC(=O)C(C(=O)O)c2ccc(O)cc2)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)COC21,JWCSIUVGFCSJCK-UHFFFAOYSA-N,0.0,Near,0.732,,Yes,0.993945897,0.95
+DILI-134,DILI,DILIst Classification  Oral,CC(=O)Nc1ccc(O)cc1,RZVAJINKPMORJF-UHFFFAOYSA-N,1.0,Novel,0.345,,No,0.619451344,0.285
+DILI-135,DILI,DILIst Classification  Oral,COc1cc(C)c(C=CC(C)=CC=CC(C)=CC(=O)O)c(C)c1C,IHUNBGSDBOWDMA-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.755108178,0.869
+DILI-136,DILI,DILIst Classification  Intravenous,Cn1c(CCCC(=O)O)nc2cc(N(CCCl)CCCl)ccc21,YTKUWDBFDASYHO-UHFFFAOYSA-N,0.0,Intermediate,0.52,,Yes,0.398735255,0.655
+DILI-137,DILI,DILIst Classification  Oral,COC1C=COC2(C)Oc3c(C)c(O)c4c(O)c(c5c(nc6cc(C)ccn65)c4c3C2=O)NC(=O)C(C)=CC=CC(C)C(O)C(C)C(O)C(C)C(OC(C)=O)C1C,NZCRJKRKKOLAOJ-UHFFFAOYSA-N,0.0,Near,0.818,,No,0.987612426,0.957
+DILI-138,DILI,DILIst Classification  Oral,CCN(CC)CC=NC(=O)c1c(C)[nH]c(Cc2c(O)[nH]c3ccc(F)cc23)c1C,ALVHFWNGOPERPY-UHFFFAOYSA-N,1.0,Novel,0.329,,Yes,0.595528722,0.504
+DILI-139,DILI,DILIrank dataset CP Overlap REpsilber,CN1CCCN=C1C=Cc1cccs1,YSAUAVHXTIETRK-UHFFFAOYSA-N,0.0,Novel,0.27,,No,0.845019877,0.369
+DILI-140,DILI,DILIst Classification  Oral,N=c1[nH]c(O)c(-c2ccccc2)o1,HDOVLPFABNJQJO-UHFFFAOYSA-N,1.0,Novel,0.295,,No,0.952783048,0.872
+DILI-141,DILI,DILIst Classification  ,Cc1cc(=NC(=O)C2C(=O)c3ccccc3S(=O)(=O)N2C)[nH]o1,SPTMROWPYQRZSX-UHFFFAOYSA-N,0.0,Novel,0.278,,Yes,0.99272114,0.983
+DILI-142,DILI,DILIst Classification  Oral,Cc1c(-c2ccccc2)oc2c(C(=O)OCCN3CCCCC3)cccc2c1=O,SPIUTQOUKAMGCX-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.848901868,0.485
+DILI-143,DILI,DILIst Classification  Oral,CC(COc1ccccc1)NN,QNEXFJFTGQBXBJ-UHFFFAOYSA-N,1.0,Intermediate,0.488,,No,0.001677041,0.054
+DILI-144,DILI,DILIrank dataset CP Overlap REpsilber,N=c1[nH]cnc2c1ncn2C1OC(CO)C(O)C1O,OIRDTQYFTABQOQ-UHFFFAOYSA-N,0.0,Near,0.633,,Yes,0.925580978,0.928
+DILI-145,DILI,DILIrank dataset CP Overlap REpsilber,COc1ccc(C2Sc3ccccc3N(CCN(C)C)C(=O)C2OC(C)=O)cc1,HSUGRBWQSSZJOP-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.997290492,0.668
+DILI-146,DILI,DILIst Classification  Oral,N=c1ccn(C2CCC(CO)O2)c(=O)[nH]1,WREGKURFCTUGRC-UHFFFAOYSA-N,0.0,Intermediate,0.553,,Yes,0.874834538,0.694
+DILI-147,DILI,DILIst Classification  Subcutaneous,NCCc1c[nH]cn1,NTYJJOPFIAHURM-UHFFFAOYSA-N,0.0,Intermediate,0.4,,No,0.333799601,0.148
+DILI-148,DILI,DILIst Classification  ,CC1CCN(CCCC(=O)c2ccc(F)cc2)CC1,DKMFBWQBDIGMHM-UHFFFAOYSA-N,1.0,Intermediate,0.549,,Yes,0.044794109,0.057
+DILI-149,DILI,DILIst Classification  Oral,O=c1nc2ccc(Cl)cc2c(-c2ccccc2)nc1C(O)O,KMQVJWKQJQYIKY-UHFFFAOYSA-N,0.0,Novel,0.328,,Yes,0.593591094,0.979
+DILI-150,DILI,DILIst Classification  ,CC(N=C(N=c1cc[nH]cc1)NC#N)C(C)(C)C,IVVNZDGDKPTYHK-UHFFFAOYSA-N,0.0,Novel,0.221,,Yes,0.97470814,0.152
+DILI-151,DILI,DILIst Classification  Oral,CCCCNC(=O)NS(=O)(=O)c1ccc(C)cc1,JLRGJRBPOGGCBT-UHFFFAOYSA-N,0.0,Intermediate,0.558,,No,0.999999523,0.922
+DILI-152,DILI,DILIst Classification  Oral,COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC,SGTNSNPWRIOYBX-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.527088881,0.202
+DILI-153,DILI,DILIst Classification  Oral,C#CC1(O)CCC2C3CCC4=Cc5oncc5CC4(C)C3CCC21C,POZRVZJJTULAOH-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.859728277,0.18
+DILI-154,DILI,DILIst Classification  Oral,CC(Cc1ccccc1)N(C)Cc1ccccc1,YXKTVDFXDRQTKV-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.046285942,0.022
+DILI-155,DILI,DILIst Classification  ,O=C1NC(=O)C(=O)C(=O)N1,HIMXGTXNXJYFGB-UHFFFAOYSA-N,0.0,Novel,0.148,,No,0.996671438,0.995
+DILI-156,DILI,DILIst Classification  Intravenous,O=[P-](=O)(O)C(O)(C[N+]1=CC=[N+]=C1)[P-](=O)(=O)O,VVTFUCQBNYYCPM-UHFFFAOYSA-N,1.0,Novel,0.132,,No,0.086819023,0.139
+DILI-157,DILI,DILIst Classification  Oral,CCN(CC)C(=S)SSC(=S)N(CC)CC,AUZONCFQVSMFAP-UHFFFAOYSA-N,1.0,Near,1.0,,No,0.99725312,0.712
+DILI-158,DILI,DILIst Classification  Intramuscular; Intravenous,CC(=O)OC=C1CSC2C(NC(=O)Cc3cccs3)C(=O)N2C1C(=O)O,RPYOSGKJIBAQNU-UHFFFAOYSA-N,1.0,Intermediate,0.4,,Yes,0.999965191,0.93
+DILI-159,DILI,DILIst Classification  Oral,c1ccc(C2CN3CCSC3=N2)cc1,HLFSDGLLUJUHTE-UHFFFAOYSA-N,0.0,Novel,0.297,,No,0.548557043,0.238
+DILI-160,DILI,DILIst Classification  ,CCOC(O)c1nc(-c2ccccc2F)c2cc(Cl)ccc2nc1=O,HTMZSADWQACSJQ-UHFFFAOYSA-N,1.0,Novel,0.351,,Yes,0.856657863,0.977
+DILI-161,DILI,DILIst Classification  Oral,COC(c1ccccc1)(c1ccccc1)C(Oc1nc(C)cc(C)n1)C(=O)O,OUJTZYPIHDYQMC-UHFFFAOYSA-N,0.0,Novel,0.269,,Yes,0.424606621,0.895
+DILI-162,DILI,DILIst Classification  Oral,OC(O)C(Cl)(Cl)Cl,RNFNDJAIBTYOQL-UHFFFAOYSA-N,0.0,Novel,0.235,,No,0.000139248,0.06
+DILI-163,DILI,DILIrank dataset CP Overlap REpsilber,O=c1[nH]c(O)cn1N=Cc1ccc(-c2ccc([N+](=O)[O-])cc2)o1,IMVWGCIUSSJUAA-UHFFFAOYSA-N,1.0,Intermediate,0.576,,No,0.999493837,0.974
+DILI-164,DILI,DILIst Classification  Topical,Cc1cc(C2CCCCC2)n(O)c(=O)c1,SCKYRAXSEDYPSA-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.162914187,0.394
+DILI-165,DILI,DILIst Classification  ,Cc1cc(CC(=O)O)n(C)c1C(=O)c1ccc(Cl)cc1,ZXVNMYWKKDOREA-UHFFFAOYSA-N,0.0,Intermediate,0.478,,Yes,0.989086866,0.919
+DILI-166,DILI,DILIst Classification  Oral,O=c1[nH]c2ccccc2n1C1CCN(CCCC(c2ccc(F)cc2)c2ccc(F)cc2)CC1,YVUQSNJEYSNKRX-UHFFFAOYSA-N,0.0,Near,0.607,,Yes,0.036120407,0.138
+DILI-167,DILI,DILIst Classification  Intravenous,CC(C)(CO)C(=O)C(O)NCCCO,ZIZYJTNDTBOCRC-UHFFFAOYSA-N,0.0,Novel,0.242,,No,0.178837255,0.012
+DILI-168,DILI,DILIst Classification  Oral,CC1C(c2ccccc2)OCCN1C,MFOCDFTXLCYLKU-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.136954144,0.023
+DILI-169,DILI,DILIst Classification  Oral,CC(COc1ccccc1)N(CCCl)Cc1ccccc1,QZVCTJOXCFMACW-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.199729905,0.132
+DILI-170,DILI,"DILIst Classification  Oral, Intramuscular; Intravenous",CC(CO)NC(=O)C1=CC2c3cccc4[nH]cc(c34)CC2N(C)C1,KHLVYIOBOBGWML-UHFFFAOYSA-N,0.0,Intermediate,0.413,,Yes,0.199983925,0.384
+DILI-171,DILI,DILIst Classification  Oral,CC(N)C(=O)NC(C)C(=O)NC1C2CN(c3nc4c(cc3F)c(=O)c(C(=O)O)cn4-c3ccc(F)cc3F)CC21,UUZPPAMZDFLUHD-UHFFFAOYSA-N,1.0,Near,0.69,,Yes,0.998218834,0.934
+DILI-172,DILI,DILIst Classification  oral,C=C(CC)C(=O)c1ccc(OCC(=O)O)c(Cl)c1Cl,AVOLMBLBETYQHX-UHFFFAOYSA-N,0.0,Near,1.0,,No,0.975199223,0.942
+DILI-173,DILI,DILIst Classification  Oral,O=[P-](=O)(O)C(O)(C[C+]1C=CC=[N+]=C1)[P-](=O)(=O)O,BVPYUOGGVTWBOM-UHFFFAOYSA-N,0.0,Novel,0.132,,No,0.368853718,0.172
+DILI-174,DILI,DILIst Classification  Percutaneous; Topical; Transdermal,COc1cc(CNC(=O)CCCCC=CC(C)C)ccc1O,YKPUWZUDDOIDPM-UHFFFAOYSA-N,0.0,Novel,0.274,,Yes,0.048788399,0.08
+DILI-175,DILI,DILIst Classification  ,CC(N)CCCC(C)(C)O,LREQLEBVOXIEOM-UHFFFAOYSA-N,1.0,Novel,0.24,,No,0.01929822,0.004
+DILI-176,DILI,DILIst Classification  Intravenous,C[N+](C)(C)CCOC(=O)CCC(=O)OCC[N+](C)(C)C,AXOIZCJOOAYSMI-UHFFFAOYSA-N,0.0,Near,1.0,,No,1.59e-06,0.001
+DILI-177,DILI,DILIst Classification  Intravenous,N=C(N)NCCCCC1NC(=O)CCSSCC(C(N)=O)NC(=O)C2CCCN2C(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(CC(=O)O)NC(=O)CNC1=O,CZKPOZZJODAYPZ-UHFFFAOYSA-N,0.0,Novel,0.265,,Yes,0.999417543,0.396
+DILI-178,DILI,DILIst Classification  Oral,CC(C)N=C(N)N=C(N)Nc1ccc(Cl)cc1,SSOLNOMRVKKSON-UHFFFAOYSA-N,0.0,Novel,0.395,,Yes,0.760121763,0.391
+DILI-179,DILI,DILIst Classification  Intra-arterial,O=c1[nH]c(=O)n(C2CC(O)C(CO)O2)cc1F,ODKNJVUHOIMIIZ-UHFFFAOYSA-N,1.0,Near,0.612,,Yes,0.992666662,0.981
+DILI-180,DILI,DILIrank dataset CP Overlap REpsilber,OCCOCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1,ZQDWXGKKHFNSQK-UHFFFAOYSA-N,0.0,Near,1.0,,Yes,0.007308394,0.032
+DILI-181,DILI,DILIst Classification  Oral,CN(C)CC=C(c1ccc(Br)cc1)c1cccnc1,OYPPVKRFBIWMSX-UHFFFAOYSA-N,1.0,Novel,0.357,,Yes,0.573957324,0.292
+DILI-182,DILI,DILIst Classification  Oral,Cc1nc([N+](=O)[O-])cn1-c1ccc([N+](=O)[O-])cc1,NMTBSNPBIGRZBL-UHFFFAOYSA-N,1.0,Novel,0.271,,Yes,0.999617577,0.957
+DILI-183,DILI,DILIst Classification  ,CCOC(=O)OC(C)OC1=C(C(=O)N=c2cccc[nH]2)N(C)S(=O)(=O)c2ccccc21,LSNWBKACGXCGAJ-UHFFFAOYSA-N,1.0,Novel,0.321,,Yes,0.998019099,0.975
+DILI-184,DILI,DILIst Classification  Oral,COc1ccc(OC)c(C(O)CNC(=O)CN)c1,PTKSEFOSCHHMPD-UHFFFAOYSA-N,0.0,Intermediate,0.562,,Yes,0.065916359,0.053
+DILI-185,DILI,DILIrank dataset CP Overlap REpsilber,CC#CC1(O)CCC2C3=C(C4=C(CC3)CC(=O)CC4)C(c3ccc(N(C)C)cc3)CC21C,BHZCGCMWEVHUBA-UHFFFAOYSA-N,0.0,Intermediate,0.526,,No,0.728281796,0.418
+DILI-186,DILI,DILIst Classification  ,O=C(O)c1cc(O)c2c(O)c3c(OC4OC(CO)C(O)C(O)C4O)cccc3c(-c3c4cc(C(=O)O)cc(O)c4c(O)c4c(OC5OC(CO)C(O)C(O)C5O)cccc34)c2c1,QFJIQUOMKJNYLI-UHFFFAOYSA-N,1.0,Novel,0.292,,No,0.999411225,0.94
+DILI-187,DILI,DILIst Classification  Oral,O=NN(CCCl)C(=O)NC1CCCCC1,GQYIWUVLTXOXAJ-UHFFFAOYSA-N,1.0,Intermediate,0.513,,No,0.994428039,0.593
+DILI-188,DILI,DILIst Classification  Oral,O=C(CCNNC(=O)c1ccncc1)NCc1ccccc1,NOIIUHRQUVNIDD-UHFFFAOYSA-N,1.0,Intermediate,0.405,,No,0.997386634,0.74
+DILI-189,DILI,DILIst Classification  ,CC1(COc2ccc(Cc3sc(=O)[nH]c3O)cc2)CCCCC1,YNQLJZYIOAPXMU-UHFFFAOYSA-N,1.0,Novel,0.246,,Yes,0.838191986,0.411
+DILI-190,DILI,DILIst Classification  Intravenous,OCC(O)c1oc(O)c(O)c1O,LPYXWGMUVRGUOY-UHFFFAOYSA-N,0.0,Novel,0.243,,No,0.354387701,0.544
+DILI-191,DILI,DILIrank dataset CP Overlap REpsilber,Cn1cnc([N+](=O)[O-])c1Sc1ncnc2[nH]cnc12,LMEKQMALGUDUQG-UHFFFAOYSA-N,1.0,Near,1.0,,Yes,0.999896646,0.982
+DILI-192,DILI,DILIst Classification  Intravenous,O=C(C(O)CO)C(O)C(O)CO,DWJZKGYQNOQQEZ-UHFFFAOYSA-N,0.0,Novel,0.381,,No,0.015462703,0.056
+DILI-193,DILI,DILIst Classification  ,CC#CCC(C)C(O)C=CC1C(O)CC2Oc3c(CCCC(=O)O)cccc3C21,CTPOHARTNNSRSR-UHFFFAOYSA-N,1.0,Intermediate,0.451,,No,0.364834905,0.163
+DILI-194,DILI,DILIst Classification  Oral,Cc1ccc(C(=CCN2CCCC2)c2cccc(C=CC(=O)O)n2)cc1,PWACSDKDOHSSQD-UHFFFAOYSA-N,0.0,Intermediate,0.582,,Yes,0.188383788,0.55
+DILI-195,DILI,DILIrank dataset CP Overlap REpsilber,CCCC1CC(C(=O)NC(C(C)O)C2OC(SC)C(O)C(O)C2O)N(C)C1,OJMMVQQUTAEWLP-UHFFFAOYSA-N,1.0,Near,0.656,,Yes,0.721133709,0.175
+DILI-196,DILI,DILIst Classification  Oral,O=C(CCCCCCC(O)=NO)Nc1ccccc1,WAEXFXRVDQXREF-UHFFFAOYSA-N,0.0,Intermediate,0.528,,No,0.779946864,0.188
+DILI-197,DILI,DILIst Classification  Oral,O=[P-](=O)(O)C([S+]=C1C=CC(=[Cl+])C=C1)[P-](=O)(=O)O,YJPVNWRCJRDXEZ-UHFFFAOYSA-N,0.0,Novel,0.122,,No,0.999801457,0.684
+DILI-198,DILI,DILIst Classification  Oral,CCC1(c2ccccc2)C(=O)NCNC1=O,DQMZLTXERSFNPB-UHFFFAOYSA-N,0.0,Intermediate,0.486,,No,0.014687954,0.271
