@@ -77,17 +77,17 @@ BINS = ["Near", "Intermediate", "Novel"]
 num = lambda s: pd.to_numeric(s, errors="coerce")
 
 SPEC = {
-    "Solubility (logS0)": ("rmse", {"SwissADME": "SwissADME",
-                                    "ADMETlab 3.0": "ADMETlab3.0",
-                                    "ADMET-AI": "ADMET-AI",
-                                    "pkCSM": "pkCSM"}),
-    "hERG (blocker@10uM)": ("auroc", {"ADMETlab 3.0": "ADMETlab3.0",
-                                      "ADMET-AI": "ADMET-AI"}),
-    "BBB (logBB>-1)": ("auroc", {"ADMET-AI": "ADMET-AI",
-                                 "pkCSM": "pkCSM",
-                                 "ADMETlab 3.0": "ADMETlab3.0"}),
-    "DILI": ("auroc", {"ADMETlab 3.0": "ADMETlab3.0",
-                       "ADMET-AI": "ADMET-AI"}),
+    "Solubility (logS0)": ("rmse", {"SwissADME": "SwissADME_score",
+                                    "ADMETlab 3.0": "ADMETlab3.0_score",
+                                    "ADMET-AI": "ADMET-AI_score",
+                                    "pkCSM": "pkCSM_score"}),
+    "hERG (blocker@10uM)": ("auroc", {"ADMETlab 3.0": "ADMETlab3.0_score",
+                                      "ADMET-AI": "ADMET-AI_score"}),
+    "BBB (logBB>-1)": ("auroc", {"ADMET-AI": "ADMET-AI_score",
+                                 "pkCSM": "pkCSM_score",
+                                 "ADMETlab 3.0": "ADMETlab3.0_score"}),
+    "DILI": ("auroc", {"ADMETlab 3.0": "ADMETlab3.0_score",
+                       "ADMET-AI": "ADMET-AI_score"}),
 }
 
 
@@ -122,7 +122,7 @@ def oriented(a, b, kind):
     return (b - a) if kind == "rmse" else (a - b)
 
 
-df = pd.read_excel(XLSX, sheet_name=SHEET, header=5)
+df = pd.read_excel(XLSX, sheet_name=SHEET)
 df = df.dropna(subset=["endpoint"])
 
 # --- sanity: rank identity must equal sklearn on the observed data ---------

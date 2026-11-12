@@ -65,12 +65,12 @@ num = lambda s: pd.to_numeric(s, errors="coerce")
 
 # endpoints with >= 2 probabilistic tools, so a pooled score is meaningful
 ENDPOINTS = {
-    "hERG": ("hERG (blocker@10uM)", ["ADMETlab3.0", "ADMET-AI"]),
-    "BBB": ("BBB (logBB>-1)", ["ADMET-AI", "ADMETlab3.0", "pkCSM"]),
-    "DILI": ("DILI", ["ADMETlab3.0", "ADMET-AI"]),
+    "hERG": ("hERG (blocker@10uM)", ["ADMETlab3.0_score", "ADMET-AI_score"]),
+    "BBB": ("BBB (logBB>-1)", ["ADMET-AI_score", "ADMETlab3.0_score", "pkCSM_score"]),
+    "DILI": ("DILI", ["ADMETlab3.0_score", "ADMET-AI_score"]),
 }
 
-df = pd.read_excel(XLSX, sheet_name=SHEET, header=5)
+df = pd.read_excel(XLSX, sheet_name=SHEET)
 df = df.dropna(subset=["endpoint"])
 
 
