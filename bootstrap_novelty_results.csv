@@ -1,0 +1,34 @@
+endpoint,tool,metric,comparison,n_a,n_b,val_a,val_b,delta,ci_low,ci_high,p
+Solubility,SwissADME,RMSE,Near - Novel,88,22,0.966,0.886,-0.081,-0.465,0.268,0.6346
+Solubility,SwissADME,RMSE,Near - Intermediate,88,22,0.966,1.374,0.407,-0.224,0.99,0.2362
+Solubility,SwissADME,RMSE,Intermediate - Novel,22,22,1.374,0.886,-0.488,-1.141,0.2,0.1828
+Solubility,ADMETlab 3.0,RMSE,Near - Novel,88,22,1.192,0.938,-0.254,-0.623,0.108,0.1786
+Solubility,ADMETlab 3.0,RMSE,Near - Intermediate,88,22,1.192,1.254,0.062,-0.341,0.442,0.7232
+Solubility,ADMETlab 3.0,RMSE,Intermediate - Novel,22,22,1.254,0.938,-0.316,-0.667,0.053,0.0944
+Solubility,ADMET-AI,RMSE,Near - Novel,88,22,1.131,0.973,-0.158,-0.491,0.15,0.3324
+Solubility,ADMET-AI,RMSE,Near - Intermediate,88,22,1.131,1.321,0.19,-0.187,0.552,0.3266
+Solubility,ADMET-AI,RMSE,Intermediate - Novel,22,22,1.321,0.973,-0.348,-0.747,0.045,0.084
+Solubility,pkCSM,RMSE,Near - Novel,88,22,1.471,1.045,-0.426,-0.894,0.036,0.0712
+Solubility,pkCSM,RMSE,Near - Intermediate,88,22,1.471,1.631,0.16,-0.458,0.746,0.6194
+Solubility,pkCSM,RMSE,Intermediate - Novel,22,22,1.631,1.045,-0.586,-1.128,-0.01,0.046
+hERG,ADMETlab 3.0,AUROC,Near - Novel,35,39,0.821,0.859,-0.037,-0.234,0.149,0.693
+hERG,ADMETlab 3.0,AUROC,Near - Intermediate,35,10,0.821,0.938,-0.116,-0.318,0.145,0.2712
+hERG,ADMETlab 3.0,AUROC,Intermediate - Novel,10,39,0.938,0.859,0.079,-0.169,0.253,0.3788
+hERG,ADMET-AI,AUROC,Near - Novel,35,39,0.735,0.78,-0.045,-0.276,0.184,0.6966
+hERG,ADMET-AI,AUROC,Near - Intermediate,35,10,0.735,1.0,-0.265,-0.442,-0.116,0.0001
+hERG,ADMET-AI,AUROC,Intermediate - Novel,10,39,1.0,0.78,0.22,0.077,0.391,0.0001
+BBB,ADMET-AI,AUROC,Near - Novel,58,86,0.815,0.843,-0.029,-0.173,0.105,0.705
+BBB,ADMET-AI,AUROC,Near - Intermediate,58,40,0.815,0.695,0.12,-0.073,0.319,0.2344
+BBB,ADMET-AI,AUROC,Intermediate - Novel,40,86,0.695,0.843,-0.148,-0.337,0.022,0.1008
+BBB,pkCSM,AUROC,Near - Novel,58,86,0.754,0.765,-0.011,-0.174,0.147,0.909
+BBB,pkCSM,AUROC,Near - Intermediate,58,40,0.754,0.547,0.207,-0.017,0.426,0.0696
+BBB,pkCSM,AUROC,Intermediate - Novel,40,86,0.547,0.765,-0.218,-0.431,-0.004,0.0472
+BBB,ADMETlab 3.0,AUROC,Near - Novel,58,86,0.692,0.703,-0.011,-0.188,0.164,0.9044
+BBB,ADMETlab 3.0,AUROC,Near - Intermediate,58,40,0.692,0.598,0.095,-0.133,0.327,0.4136
+BBB,ADMETlab 3.0,AUROC,Intermediate - Novel,40,86,0.598,0.703,-0.105,-0.323,0.103,0.3308
+DILI,ADMETlab 3.0,AUROC,Near - Novel,60,82,0.734,0.613,0.122,-0.066,0.299,0.1922
+DILI,ADMETlab 3.0,AUROC,Near - Intermediate,60,56,0.734,0.642,0.093,-0.102,0.287,0.3556
+DILI,ADMETlab 3.0,AUROC,Intermediate - Novel,56,82,0.642,0.613,0.029,-0.164,0.219,0.763
+DILI,ADMET-AI,AUROC,Near - Novel,60,82,0.726,0.551,0.175,-0.01,0.354,0.0646
+DILI,ADMET-AI,AUROC,Near - Intermediate,60,56,0.726,0.591,0.135,-0.067,0.337,0.1816
+DILI,ADMET-AI,AUROC,Intermediate - Novel,56,82,0.591,0.551,0.04,-0.159,0.236,0.7002
