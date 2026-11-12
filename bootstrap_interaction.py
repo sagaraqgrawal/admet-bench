@@ -27,8 +27,37 @@ import pandas as pd
 from scipy.stats import rankdata
 from sklearn.metrics import roc_auc_score
 
-XLSX = ("/mnt/user-data/attachments/8bb97ff4-e6fe-5cee-81ac-aaf31743d97f/"
-        "fc1aa685-Supplementary_Information.xlsx")
+from pathlib import Path
+
+# Supplementary Table S1 — the per-compound workbook this analysis reads.
+# Looked for under data/ and then beside this script, so the script works
+# whether it is run from the repository root or from its own directory.
+SHEET = "Per_Compound_Data"
+
+# The per-compound workbook this analysis reads. Searched for in the
+# locations it occupies in this repository, so the script runs from the
+# repository root or from its own directory.
+HERE = Path(__file__).resolve().parent
+_CANDIDATES = [
+    HERE / "results" / "Supplementary_Results.xlsx",
+    HERE.parent / "results" / "Supplementary_Results.xlsx",
+    HERE / "data" / "Supplementary_Information.xlsx",
+    HERE / "Supplementary_Information.xlsx",
+]
+XLSX = next((c for c in _CANDIDATES if c.exists()), None)
+if XLSX is None:
+    raise SystemExit(
+        "Per-compound workbook not found. Looked in:\n  "
+        + "\n  ".join(str(c) for c in _CANDIDATES)
+        + "\nEdit the _CANDIDATES list to point at its location."
+    )
+
+_sheets = pd.ExcelFile(XLSX).sheet_names
+if SHEET not in _sheets:
+    raise SystemExit(
+        f"{XLSX.name} has no sheet named {SHEET!r}. Sheets present: "
+        + ", ".join(_sheets)
+    )
 N_BOOT = 10000
 SEED = 20261104
 
@@ -41,7 +70,7 @@ ENDPOINTS = {
     "DILI": ("DILI", ["ADMETlab3.0", "ADMET-AI"]),
 }
 
-df = pd.read_excel(XLSX, sheet_name="Per_Compound_Data", header=5)
+df = pd.read_excel(XLSX, sheet_name=SHEET, header=5)
 df = df.dropna(subset=["endpoint"])
 
 
