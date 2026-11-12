@@ -154,6 +154,6 @@ rows.append(summarize(
     d, float(np.mean(deltas["DILI"]) - np.mean(both)),
     "DILI minus mean(hERG, BBB)"))
 
-pd.DataFrame(rows).to_csv("/home/claude/bootstrap_interaction_results.csv",
-                          index=False)
-print("\nwrote /home/claude/bootstrap_interaction_results.csv")
+OUT = HERE / "bootstrap_interaction_results.csv"
+pd.DataFrame(rows).to_csv(OUT, index=False)
+print(f"\nwrote {OUT}")

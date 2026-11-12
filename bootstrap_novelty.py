@@ -173,7 +173,8 @@ for ep, (kind, tools) in SPEC.items():
                 p=round(float(max(min(pv, 1.0), 1.0 / N_BOOT)), 4)))
 
 res = pd.DataFrame(rows)
-res.to_csv("/home/claude/bootstrap_novelty_results.csv", index=False)
+OUT = HERE / "bootstrap_novelty_results.csv"
+res.to_csv(OUT, index=False)
 
 print("delta > 0 means BETTER on the first-named (more drug-like) stratum.")
 print(f"{N_BOOT} stratified resamples, seed {SEED}.\n")
